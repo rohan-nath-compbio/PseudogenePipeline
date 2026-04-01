@@ -20,6 +20,7 @@ Usage:
   bash pseudogene-pipeline check
   bash pseudogene-pipeline test25
   bash pseudogene-pipeline configure-test25
+  bash pseudogene-pipeline download-dfam <dest_dir>
   bash pseudogene-pipeline run <parameter_file>
   bash pseudogene-pipeline help
 
@@ -33,6 +34,7 @@ Environment variables:
 Examples:
   FASTA36_DIR=~/fasta36 bash pseudogene-pipeline install
   bash pseudogene-pipeline test25
+  bash pseudogene-pipeline download-dfam /path/to/RepeatMasker/Libraries
   bash pseudogene-pipeline run /path/to/parameter_file
 EOF
 }
@@ -269,6 +271,35 @@ cmd_run() {
   popd >/dev/null
 }
 
+cmd_download_dfam() {
+  if [[ $# -ne 1 ]]; then
+    echo "ERROR: download-dfam requires a destination directory." >&2
+    usage
+    exit 1
+  fi
+
+  local dest_dir="$1"
+  mkdir -p "$dest_dir"
+
+  local base_url="https://www.dfam.org/releases/current/families/FamDB/"
+  echo "Downloading Dfam FamDB (full) shards to: $dest_dir"
+  echo "Source: $base_url"
+  echo "Note: This is very large and may take hours; ensure you have space."
+
+  if command -v wget >/dev/null 2>&1; then
+    wget -c -r -np -nd -A "dfam*_full.*.h5.gz,dfam*_full.*.h5.gz.md5" \
+      -P "$dest_dir" "$base_url"
+  elif command -v curl >/dev/null 2>&1; then
+    echo "ERROR: wget not found. Please install wget (recommended) or download manually." >&2
+    exit 1
+  else
+    echo "ERROR: neither wget nor curl found. Please install wget or download manually." >&2
+    exit 1
+  fi
+
+  echo "Download complete. To use these, set DFAM_LIB_DIR to your RepeatMasker Libraries directory."
+}
+
 main() {
   local command="${1:-help}"
   shift || true
@@ -282,6 +313,9 @@ main() {
       ;;
     test25)
       cmd_test25 "$@"
+      ;;
+    download-dfam)
+      cmd_download_dfam "$@"
       ;;
     configure-test25)
       cmd_configure_test25 "$@"
