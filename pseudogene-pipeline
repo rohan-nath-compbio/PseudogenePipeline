@@ -290,11 +290,28 @@ cmd_download_dfam() {
     wget -c -r -np -nd -A "dfam*_full.*.h5.gz,dfam*_full.*.h5.gz.md5" \
       -P "$dest_dir" "$base_url"
   elif command -v curl >/dev/null 2>&1; then
-    echo "ERROR: wget not found. Please install wget (recommended) or download manually." >&2
-    exit 1
+    # curl doesn't support recursive listing; fetch index and download matches.
+    curl -s "$base_url" \
+      | sed -n 's/.*href="\\([^"]*dfam[^"]*full[^"]*\\.h5\\.gz\\(\\.md5\\)\\?\\)".*/\\1/p' \
+      | sort -u \
+      | while read -r f; do
+          [[ -n "$f" ]] && curl -L -o "$dest_dir/$f" "$base_url/$f"
+        done
   else
     echo "ERROR: neither wget nor curl found. Please install wget or download manually." >&2
     exit 1
+  fi
+
+  # Verify MD5 checksums if available
+  if command -v md5sum >/dev/null 2>&1; then
+    local md5_files
+    md5_files=$(ls "$dest_dir"/*.md5 2>/dev/null || true)
+    if [[ -n "$md5_files" ]]; then
+      echo "Verifying MD5 checksums..."
+      (cd "$dest_dir" && md5sum -c *.md5)
+    fi
+  else
+    echo "WARNING: md5sum not found; skipping checksum verification."
   fi
 
   echo "Download complete. To use these, set DFAM_LIB_DIR to your RepeatMasker Libraries directory."
