@@ -27,6 +27,8 @@ Environment variables:
   ENV_NAME     Conda environment name. Default: pseudogenePipeline
   FASTA36_DIR  Install/use fasta36 here. Default: \$HOME/fasta36
   SKIP_TEST25  If set to 1, skip test25 during install/test25. Default: 0
+  RM_LIB       RepeatMasker library directory (overrides auto-detection)
+  DFAM_LIB_DIR Alternative RepeatMasker library directory to use (sets RM_LIB)
 
 Examples:
   FASTA36_DIR=~/fasta36 bash pseudogene-pipeline install
@@ -83,7 +85,11 @@ ensure_repeatmasker_env() {
   local rm_share
   rm_share="$(repeatmasker_bin_dir)/../share/RepeatMasker"
   if [[ -d "$rm_share" ]]; then
-    export RM_LIB="$rm_share/Libraries"
+    if [[ -n "${DFAM_LIB_DIR:-}" ]]; then
+      export RM_LIB="$DFAM_LIB_DIR"
+    elif [[ -z "${RM_LIB:-}" ]]; then
+      export RM_LIB="$rm_share/Libraries"
+    fi
     export PATH="$PATH:$rm_share"
   fi
 }
