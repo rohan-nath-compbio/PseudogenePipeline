@@ -56,6 +56,19 @@ install_fasta36() {
   fi
 }
 
+ensure_test25() {
+  if [[ ! -d "$TEST25_DIR" ]]; then
+    if [[ -f "$REPO_ROOT/test25.tgz" ]]; then
+      # Unpack bundled test data if present.
+      tar -xzf "$REPO_ROOT/test25.tgz"
+    else
+      echo "ERROR: $TEST25_DIR is missing and $REPO_ROOT/test25.tgz not found." >&2
+      echo "If you have the archive, run: gunzip test25.tgz (then extract test25.tar) or tar -xzf test25.tgz" >&2
+      exit 1
+    fi
+  fi
+}
+
 repeatmasker_bin_dir() {
   dirname "$(command -v RepeatMasker)"
 }
@@ -80,6 +93,7 @@ check_setup() {
 }
 
 configure_test25() {
+  ensure_test25
   cat > "$TEST25_DIR/test_parameter_file" <<EOF
 p_seq=test_prot25.fa
 g_seq=test_genome.fa
