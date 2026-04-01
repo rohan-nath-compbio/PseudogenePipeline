@@ -31,12 +31,12 @@ Environment variables:
   RM_LIB       RepeatMasker library directory (overrides auto-detection)
   DFAM_LIB_DIR Alternative RepeatMasker library directory to use (sets RM_LIB)
   DFAM_DEST    Where to download Dfam if AUTO_DFAM=1 (defaults to /storage1/RepeatMasker/Libraries if writable, else $REPO_ROOT/dfam/Libraries)
-  AUTO_DFAM    If set to 1, auto-download Dfam (full) and use it. Default: 0
+  AUTO_DFAM    Auto-download Dfam (full) and use it. Default: 1
 
 Examples:
   FASTA36_DIR=~/fasta36 bash pseudogene-pipeline install
   bash pseudogene-pipeline test25
-  AUTO_DFAM=1 bash pseudogene-pipeline install
+  bash pseudogene-pipeline install
   bash pseudogene-pipeline download-dfam /path/to/RepeatMasker/Libraries
   bash pseudogene-pipeline run /path/to/parameter_file
 EOF
@@ -106,7 +106,7 @@ has_dfam_full() {
 }
 
 ensure_dfam() {
-  if [[ "${AUTO_DFAM:-0}" != "1" ]]; then
+  if [[ "${AUTO_DFAM:-1}" != "1" ]]; then
     return
   fi
   local dest
