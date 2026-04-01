@@ -1,0 +1,2922 @@
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G38310 - 208 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      475 residues in     1 sequences
+
+Statistics: (shuffled [146]) MLE statistics: Lambda= 0.1444;  K=0.001324
+ statistics sampled from 1 (1) to 146 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.160
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|447554-448028                ( 475) [f]  470  235 63.0   1e-14
+AthaChr4|447554-448028                ( 475) [r]   40   40 22.4   0.017
+
+Smith-Waterman score: 452; 48.8% identity (71.9% similar) in 160 aa overlap (67-200:1-472)
+>AT2G38 ..
+VWSVVRRFDNPQAYKHFLKSCSVIGGDGDNVGSLRQVHVVSGLPAASSTE
+RLDILDDERHVISFSVVGGDHRL-----------------------S-NY
+RSVTTLHPSPI---SGTVVVESYVVDVPPGNTKEETCDFVDVIVRCNLQS
+LAKIAENTAAE
+>AthaCh ..
+VWSLVRRFDQPQKYKPFISRCTV-NGDPE-IGCLREVNVKSGLPATTSTE
+RLEQLDDEEHILGINIIGGDHRLKVTKSKSHSIQKH*RLL*WLLFSA\NY
+SSILTVHPEMIDGRSGTMVMESFVVDVPQGNTKDDTCYFVESLIKCNLKS
+LACVSERLAAQ
+
+Smith-Waterman score: 50; 29.5% identity (56.8% similar) in 44 aa overlap (117-158:435-307)
+>AT2G38 ..
+RLDILDD--ERHVISFSVVGGDHRLSNYRSVTTLHPSPISGTVV
+>AthaCh ..
+RLHFMSDSTK*HVSSLVLP*GTSTTKDSITIVPDLPSIISGCTV
+
+
+
+208 residues in 1 query   sequences
+475 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:25 2022 done: Thu May 12 17:00:25 2022
+ Total Scan time:  0.160 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      144 residues in     1 sequences
+
+Statistics: (shuffled [134]) MLE statistics: Lambda= 0.1831;  K=0.004994
+ statistics sampled from 1 (1) to 133 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.150
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|537527-537670                ( 144) [r]  145  145 50.6 2.9e-11
+AthaChr4|537527-537670                ( 144) [f]   28   28 19.7   0.056
+
+Smith-Waterman score: 145; 53.2% identity (76.6% similar) in 47 aa overlap (50-96:144-7)
+>AT2G20 ..
+ILASPELYQTRILLSRTETFLYVCLSFPGEPNPGWFTLYRKPNQTLT
+>AthaCh ..
+ILKTPELCKFRSLLGHTESCLYVCFKLRAYENHS*FTLCRKPDQTLT
+
+Smith-Waterman score: 34; 50.0% identity (75.0% similar) in 12 aa overlap (186-197:97-129)
+>AT2G20 ..
+VAQDAEELAPLF
+>AthaCh ..
+VSQE*PELAKLW
+
+
+
+349 residues in 1 query   sequences
+144 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:25 2022 done: Thu May 12 17:00:25 2022
+ Total Scan time:  0.150 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G02680 - 650 aa
+Library: tmp_1652389225.336940/TMP.FA2
+     1413 residues in     1 sequences
+
+Statistics: (shuffled [114]) MLE statistics: Lambda= 0.1498;  K=0.0008589
+ statistics sampled from 1 (1) to 114 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.210
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|753864-755276                (1413) [f]  881 1145 262.3   1e-73
+AthaChr4|753864-755276                (1413) [r]   39   39 23.3   0.083
+
+Smith-Waterman score: 1197; 40.0% identity (64.2% similar) in 480 aa overlap (151-615:1-1407)
+>AT2G02 ..
+YYCVECDMRYHKECVESPLRINYPSHANHSFQLYSSKKRF---------K
+YCIMCRKKVN-GLVYYCALCDMYMHTLCAQAVIPFFIDQPKRHAHILTLF
+PRQASLTCNICGVLDELHFTYVCPICDFVTHADCIYIPQTIRISRHHHCI
+SFTSSLLKGKWSCGVCRQEVDRKYGAYTCNACNGYTVHTRCALRNDIWDG
+KELEGVQEDEEVEPPFKRISDGIILHFSHGCQ-MELETSGVHVGGNKFCQ
+ACALPINEENFYICVECDFILHETCAEAPQKKFHPLHPHALQQKVVHEND
+LFLCDACDRLCNGFGYECTFEDCDYILDVVCASASEPFNYQGH-QHPLFL
+ALRPNVKPMCHICKSTKENQVLNCIEGD--FIICFECATLPYVIRYKHDD
+HYLTLCHGEEASDSDWCELCEGKLSTGGEKGFYKCDDCCTTLHINCLLGP
+NPFLKPGQTFTLGRNEFLVIRNN-SPRPIC
+>AthaCh ..
+YKCYECDLFFHKDCVWHPPEVNHTLEVNHSYHSLHPLKLHTGQLPNYSDR
+KCRLCAKEIEVGLFYHCSLCNFTLDMSCVLNPPQRYLWNLKAHDHQLTLL
+PSLRSFLCSACG-LNGDRSPYICVQCDFMIHQVCLHLPRVININRHDHRV
+SRTSVLGVVNSVCGVCRQKVDWTCGGFSCPRCPGYAAHSLCATREDVWNG
+KELEGVPEEIEDIEPYVVIDDNTIQHFSHKEHYLRLHVNSVLCDDNKRCS
+ACTHPICLQSFYGCMDCDFILHQNCAGFLRMKWHVLHNERLTL-VTNETE
+VFKCYACERWSNGFRYQQGYKS----FDVRCGSISEPFFHPSHPDHPLYC
+IL-PYGKIFCNGCYKFKYG-MLVCVEYECNHLICFNCATLPPVVKHRVDD
+HPLSLCYGEKASGICWCDICEAK--ADPEIWFYTCKDQRASLHTSCVLGD
+FSGLMPGSTLKSASNSSEVLLNNIVSRPFC
+
+Smith-Waterman score: 80; 31.7% identity (54.0% similar) in 63 aa overlap (584-642:956-777)
+>AT2G02 ..
+LGPNPFLKP----GQTFTLGRNEFLVIRNNSPRPICGTCNMRRPYPVMFF
+WESDHRSITKPKE
+>AthaCh ..
+LYPCWYLKPLDHLSQA*HLKTSVSLVTRVR--RSLCSTCHFILRNPAQFW
+WRMKSQSIQP*KD
+
+>--
+Smith-Waterman score: 59; 28.6% identity (54.8% similar) in 42 aa overlap (312-350:1093-971)
+>AT2G02 ..
+RKYGAYTCNA-CNGYTVHTRCALRNDI--WDGKELEGVQEDE
+>AthaCh ..
+RAFHI*TCNNHCRIFFRKVKCNIRDDRDDLDGKMAQKLNRTE
+
+>--
+Smith-Waterman score: 51; 25.0% identity (61.4% similar) in 44 aa overlap (254-297:1405-1282)
+>AT2G02 ..
+LDELHFTYVCPICDFVTHA-DCIYIPQTIRISRHHHCISFTSSLL
+>AthaCh ..
+MDEIQYC*AAPQMN-CSHS\ECASRHEP*KVSKHTTCM*-TSTLV
+
+
+
+650 residues in 1 query   sequences
+1413 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:25 2022 done: Thu May 12 17:00:25 2022
+ Total Scan time:  0.210 Total Display time:  0.080
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G17600 - 581 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      861 residues in     1 sequences
+
+Statistics: (shuffled [179]) MLE statistics: Lambda= 0.1441;  K=0.001028
+ statistics sampled from 1 (1) to 179 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (1), width:  16
+ Scan time:  0.220
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|833430-834290                ( 861) [r]  691  742 168.2 1.2e-45
+AthaChr4|833430-834290                ( 861) [f]   57   66 27.7  0.0023
+
+Smith-Waterman score: 747; 41.8% identity (64.1% similar) in 304 aa overlap (54-349:861-4)
+>AT2G17 ..
+CDVEFHDICHVYPRKL------THPYHLQHPLTLTTQNTEIEIISKNPEY
+GYIFKNCNWCGDDLRDGSQFYHCSICNFCLDLSCSQNFPTLTITNPKSHH
+HSLFLFPW-PLLI-PCEACELVSLLEPSYTCFQCNYLVHESCINLPRVIK
+ITRHPHRLSHTPFLPPTTPSCRVCYKTVDIKYGQYSCDHEGC-SYVAHSK
+CATHMHVWDGRELEWEPEELDETEDIVPFKKVGDNMIKYFCH-EHHLKLE
+KYDSVRDAKKQCQACILRIDSYDFYNCVQCDFFLHEVCAGLPRKLAHALH
+KHPLVL
+>AthaCh ..
+CELHFHVDCVWHPTELKHPLEVNHPYHALHPLKLLT--------ARFPDY
+SD--GKCRLCGSKI-DDRLFYHCSSCNFTLGLCCVLRPPQPSLLNLKAHD
+HQLTLLPR\PILL/PCNACGLKGDRSP-YICFQCGFMIHQDCLGPPRLIN
+INRHDHRVVRTSVLGVVNSVCGVCRQKVDWTCGGFSCQR--CPDYVAHSK
+CATREDVWNGEELEGVPEEI---EDIEPYVVIDDNTIQHFSHKEHYLRLH
+DNGLLCDDNKRCRPCTHPICLQSFYGCMDCDFILHKNCAGFLRMKWHVLH
+NERLTL
+
+Smith-Waterman score: 72; 24.3% identity (50.5% similar) in 103 aa overlap (438-532:20-303)
+>AT2G17 ..
+CTICSFAMCYRCATIPYELYYKYDAHLLSLCYGEDAEKAYWCEVCEKELN
+----PREW-FYSCN---KCCITIHLECIFGSSVYIKS-GYTFYFGSASMK
+ILGN
+>AthaCh ..
+CSTCHFIL-----RNPAQFLWRIKSQ--SIQP*KDWRQMGWVHGLHRLLS
+SQRRPLSWSLR*CSLWLKCCIVLSSITTYGSISSISS/GYSFEFFSVPYI
+FSGS
+
+
+
+581 residues in 1 query   sequences
+861 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:25 2022 done: Thu May 12 17:00:25 2022
+ Total Scan time:  0.220 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      210 residues in     1 sequences
+
+Statistics: (shuffled [103]) MLE statistics: Lambda= 0.1689;  K=0.003787
+ statistics sampled from 1 (1) to 103 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (1), width:  16
+ Scan time:  0.150
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|1015475-1015684              ( 210) [r]  139  153 50.5 4.4e-11
+AthaChr4|1015475-1015684              ( 210) [f]   47   47 24.7  0.0027
+
+Smith-Waterman score: 153; 40.3% identity (69.4% similar) in 72 aa overlap (20-87:210-4)
+>AT2G20 ..
+LPNDLIVTILARLSQSYYPKLSLVSKTFRAILASPELYQTRILLSRTETF
+LYVCL----SFPGEPNPGWFTL
+>AthaCh ..
+LPNDIVLNILARVPRWYHPILSCVSKNLRFLVSSSELKITRSLLEKDR--
+FYVCFQEHSNSPSLTTYHWFSF
+
+Smith-Waterman score: 47; 41.7% identity (70.8% similar) in 24 aa overlap (44-67:77-145)
+>AT2G20 ..
+SKTFRAILASPELYQTRILLSRTE
+>AthaCh ..
+SKRDRVILSSEELTRNRKFFDTQE
+
+
+
+349 residues in 1 query   sequences
+210 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:25 2022 done: Thu May 12 17:00:25 2022
+ Total Scan time:  0.150 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G02680 - 650 aa
+Library: tmp_1652389225.336940/TMP.FA2
+     1515 residues in     1 sequences
+
+Statistics: (shuffled [116]) MLE statistics: Lambda= 0.1274;  K=0.0003195
+ statistics sampled from 1 (1) to 115 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.250
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|1118102-1119616              (1515) [f] 1023  768 157.7 3.4e-42
+AthaChr4|1118102-1119616              (1515) [r]   48   48 25.3   0.023
+
+Smith-Waterman score: 1371; 41.4% identity (67.5% similar) in 510 aa overlap (150-628:7-1512)
+>AT2G02 ..
+YYYCVECDMRYHKECVESPLRINYPSHANH-----SFQLYSSKKRFKYCI
+MCRKKVNGLVYYCALCDMYMHTLCAQAVIPFFIDQPKRHAHILTLFPRQA
+SLTCNICGVLDEL--HFT-----YVCPICDFVTHADCIYIPQTIRISRHH
+HCISFTSSLLKGK-WSCGVCRQEVDRKYGAYTC--NACNGYTVHTRCALR
+NDIWDGKELEGVQE---DEEVEPPFKRISDGIILHFSH-GCQMELET-SG
+VHVGGNKFCQACALPINEENFYICVECDFILHETCAEAPQKKFHPLHPHA
+LQQKVVHEND--LFLCDACDRLCN-GFGYECTFEDCDYILDVVCASASEP
+FNYQGHQHPLFLALRPNVKP-MCHICKSTKE--NQVLNCIEG-DFIICFE
+CATLPYVIRYKHDDHYLTLCHGEEASD-SDWCELCEGKLSTGGEKGFYKC
+DD-CCTTLHINCLLGPNPFLKPGQTFTLGRNEFLVIRNNS--PRPICGTC
+NMRRPYPVMF
+>AthaCh ..
+HFLCQGCNGKNHKEYNKAPAEIKHPFHPKHPLLLVSLQMLSSTRK---CY
+CCDEDLKNIFYYCSACEFAVNFACVQKPPELSMHHPKWHEHTLALFPTQT
+PFPCSICALTHSSGPFYTSSGPFYTCPPCDFVIHQKCFSLPRVIRISRHP
+HRISFTPSFDPEKYWSCGVCRRKIENDYGCYSCVKDGCS-YAAHSKCATQ
+TNVWDGKELEGEPEEDMDEEVE-SFVTISDGIIQHFSHEHHHMRLDVNTD
+RDYDENKLCQACTTPIYFGNFFSCMQCDFILHEKCANFRRKIHHPTHPHL
+LTLSRTYEGEHHAFACSACSVWCTAGFFYECNEEACYFKVHVQCATISEP
+LVHESHMHPLFLTSKPEEEQRTCNVCHNLRRGGSETFNCIEECNFSLCFG
+CATIPHKARYKHDKHMLTISYGEKTSTMTYWCEVCEGKIDP--KERFYMC
+DEYCCVTLHMPCMLGWDLYMKPGSSWIRGSKKVYALPNNHHMSRPICPRC
+ERRCPYKTVL
+
+Smith-Waterman score: 76; 28.0% identity (58.0% similar) in 50 aa overlap (150-196:1372-1227)
+>AT2G02 ..
+YYYCVECDMRYHKECVESPL-RINYPSHANHSFQL---YSSKKRFKYCIM
+C
+>AthaCh ..
+YMACVR*HNNTHHTCKTAPL/RSIFPSQTSHQYVMVLVFSP*EIVSICLS
+C
+
+>--
+Smith-Waterman score: 56; 25.4% identity (54.0% similar) in 63 aa overlap (122-179:1101-920)
+>AT2G02 ..
+LPLFWCNNKEADPENDCVICRAEKVGTDYYY------CVECDMRYHKECV
+ESPLRINYPSHANH
+>AthaCh ..
+LLLFWFGC*E*RMHMTFVD*RLRNCGALHMYLKITC/CLHCTHRRNQQCT
+-TQNKLNMQTHDAH
+
+
+
+650 residues in 1 query   sequences
+1515 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:25 2022 done: Thu May 12 17:00:26 2022
+ Total Scan time:  0.250 Total Display time:  0.100
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G15530 - 781 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      129 residues in     1 sequences
+
+Statistics: (shuffled [117]) MLE statistics: Lambda= 0.1699;  K=0.003325
+ statistics sampled from 1 (1) to 116 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.150
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|1483036-1483164              ( 129) [r]  185  191 59.9 9.1e-14
+AthaChr4|1483036-1483164              ( 129) [f]   26   26 19.5    0.13
+
+Smith-Waterman score: 191; 68.2% identity (88.6% similar) in 44 aa overlap (702-745:129-7)
+>AT2G15 ..
+RRLCLFIMRMIKMIVPKPLGTSDKIGTIQRRLAWLLRKDDTYKS
+>AthaCh ..
+KKLCLYMVRVEVVIVPS--GTSDKIGTIQRRLAWPLRKDDTHKS
+
+Smith-Waterman score: 35; 42.1% identity (57.9% similar) in 19 aa overlap (201-216:43-96)
+>AT2G15 ..
+SSCKRKALEGSP---SHYF
+>AthaCh ..
+SSLYRSNFIGCPRRDNHYF
+
+
+
+781 residues in 1 query   sequences
+129 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:26 2022 done: Thu May 12 17:00:26 2022
+ Total Scan time:  0.150 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      354 residues in     1 sequences
+
+Statistics: (shuffled [104]) MLE statistics: Lambda= 0.1625;  K=0.002089
+ statistics sampled from 1 (1) to 103 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.110
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|2985054-2985407              ( 354) [r]  362  373 101.4 3.6e-26
+AthaChr4|2985054-2985407              ( 354) [f]   30   30 21.0   0.057
+
+Smith-Waterman score: 373; 50.9% identity (80.7% similar) in 114 aa overlap (16-129:342-4)
+>AT2G20 ..
+ESNSLPNDLIVTILARLSQSYYPKLSLVSKTFRAILASPELYQTRILLSR
+TETFLYVCLSFPGEPNPGWFTLYRKPNQTLTTKKKKNSVHLLAPILNSPP
+VEFPSLIAVGSYLY
+>AthaCh ..
+KSLSLPHDVLVSCLAHVSRLHYSILSLVLKNFRSLIASPELYKTRSLLGR
+IESCLYVCLRFPNESHPRWFTLYMKPNQIVANNKSNCNLLVPTPTISSSP
+AHWLCLIAVGSRIY
+
+Smith-Waterman score: 48; 34.8% identity (52.2% similar) in 23 aa overlap (141-163:111-176)
+>AT2G20 ..
+DSLNCVEVYNTDTQTWIPVPPNK
+>AthaCh ..
+D*VSCRE*TNVDEIHWGNVSRHK
+
+>--
+Smith-Waterman score: 40; 27.6% identity (65.5% similar) in 29 aa overlap (39-67:182-265)
+>AT2G20 ..
+KLSLVSKTFRAILASPELYQTRILLSRTE
+>AthaCh ..
+QLSIRPKSERVL*SSGEAMSDRKFFKTKE
+
+
+
+349 residues in 1 query   sequences
+354 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:26 2022 done: Thu May 12 17:00:26 2022
+ Total Scan time:  0.110 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G02680 - 650 aa
+Library: tmp_1652389225.336940/TMP.FA2
+     1968 residues in     1 sequences
+
+Statistics: (shuffled [100]) MLE statistics: Lambda= 0.1158;  K=0.0001709
+ statistics sampled from 1 (1) to 100 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.270
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|6423673-6425640              (1968) [r] 1555 1277 231.0 3.7e-64
+AthaChr4|6423673-6425640              (1968) [f]   48   48 25.7   0.023
+
+Smith-Waterman score: 1887; 43.9% identity (65.5% similar) in 684 aa overlap (1-628:1968-4)
+>AT2G02 ..
+MDLFGEFRKVEIDGKPFLVYHKVMKPLPQIHTPNSSDEETTIEKPLSIQN
+EETSSDEETIDSGDNLPLPL-LFACPIVRLTSTVIIDNITLQDDQGK---
+---------SVEHFFNLKTSPFHGDNT-SVDHD-----PVLPLFWCNNKE
+ADP-ENDCVICRAEKVGTDYYYCVECDMRYHKECVESPLRINYPSHANHS
+FQLYSSKKRFKYCIMCRKKVNGLVYYCALCDMYMHTLCAQAVIPFFIDQP
+KRHAHILTLFPRQASLTCNICGVLDELHFTYVCPICDFVTHADCIYIPQT
+IRISRHHHCISFTSSLLKGKWSCGVCRQEVDRKYGAYTCNACNGYTVHTR
+CALRNDIWDGKELEGV-QEDEEVEP--PFKRISDGIILHFSHGCQMELET
+SGVHVGGNKFCQACALPINEENFYICVECDFILHETCAEAPQKKFHPLHP
+HALQQKVV-----HENDLFLCDACDRLCNGFGYEC-TFEDCDYILDVVCA
+SASEPFNYQGHQHPLFLALRPNVKPMCHICKSTKENQVLNCIEGDFIICF
+ECATLPYVIRYKHDDHYLTLCHGEEASD-SDWCELCEGKLSTGGEKGFY-
+---------KCDDCCTTLHINCLLGPNPFLKPGQTF----------TLGR
+N-----EFLVIRNNSP-RPICGTCNMRRPYPVMF
+>AthaCh ..
+MSSVGVFHKVEMDENLYFVYK-----LTQTDYPTSSGEVLAMD-------
+----------STGDDQPLDQPLFLCPDAR----IKFHKLKIQREDGDIFD
+YDFKFHPYISSPHFPSKRSGDQQGESLLDCDEDGICKLPVVPLFWCNNKE
+SDSREFQCGGCRDSMLSASYYACLQCEKKFHKECVESPLEIKHPTHLFHS
+LRLYYHPAP-EFCICCKTEVFMIFYHCLTCNLSMHPVCAMRKVPFFIDHP
+KSHPHPLTFFPTQASLVCHFCALIKKLDPTYICTKCVFVIHKGCIGFPHV
+IRISRHTHRISFTSSLPCGKLSCGVCHQQVDNDYGAYSCKKCDAYFVHSK
+CALQRHVWDGKDLEEVPEEDDMIDDGEPFKRIADGIILHPFHSHNLHLQT
+TRAY-DENTYCRGCALPIYEGQFYSCIESDFILHEHCANAPRMKRHPLHP
+HPLTLVVATRGPGNEEGTFQCDACHRKGTGFFYEHHTDQENIFMLDIHCA
+SIFEPFQYQGHEHPLFLPSEPNKWGRCQMCTYEYVNLNLNCLECDYILCF
+HCATLPYKVRYKHDSHFLKICNGKEANDQSYWCEICEGKIEEGTERAFYN
+TPKKDTSFYKCNACCTTLHQRCLLGIDTYMKPGETVKDYLSSIKYASEGQ
+SKESITDVQILLNSSPTRPICTRCLCRCPFPIFF
+
+Smith-Waterman score: 55; 26.0% identity (54.5% similar) in 77 aa overlap (266-341:867-1085)
+>AT2G02 ..
+CDFVTHADCIYIPQTIRISRHHH--CISFTSSLLKGKWSCGVCRQEVDRK
+YGAYTCN-ACNGYTVHTRCALRNDIWDGK
+>AthaCh ..
+CDY--EKDVVLFHQLSS*TAHHHL/CISSSSGTSSRSFPSHTCLCNAHFE
+*TK*ASH\SCKNMH-HNRCPLADDILHKK
+
+
+
+650 residues in 1 query   sequences
+1968 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:26 2022 done: Thu May 12 17:00:26 2022
+ Total Scan time:  0.270 Total Display time:  0.090
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G02680 - 650 aa
+Library: tmp_1652389225.336940/TMP.FA2
+     1482 residues in     1 sequences
+
+Statistics: (shuffled [120]) MLE statistics: Lambda= 0.1364;  K=0.0004265
+ statistics sampled from 1 (1) to 120 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (1), width:  16
+ Scan time:  0.210
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|6520825-6522306              (1482) [r] 1138 1071 227.0 4.5e-63
+AthaChr4|6520825-6522306              (1482) [f]   65   67 29.4  0.0014
+
+Smith-Waterman score: 1452; 44.6% identity (66.5% similar) in 498 aa overlap (150-630:1482-4)
+>AT2G02 ..
+YYYCVECDMRYHKECVESPLRINYPSHANHSFQL-YSSKKRFKYCIMCRK
+KVNGLVYYCALCDMYMHTLCAQAVIPFFIDQPKRHAHILTLFPRQASLTC
+NICGVLDELHFTYVCPICDFVTHADCIYIPQTIRISRHHHCISFTSSLLK
+GKWSCGVCRQEVDRKYGAYTC--NACNGYTVHTRCALRNDIWDGKELEGV
+QEDE--EVEPPFKRISDGIILHFSHGCQMELETSGVH--VGGNKFCQACA
+LPINEENFYICVECDFILHETCAEAPQKKFHPLHPHALQQKVVHENDL-F
+LCDACDRL-CNGFGYECTFEDCDYILDVVCASASEPFNYQGHQHPLFLAL
+RPNVKPM-CHICKSTK---ENQVLNCIEGDFIICFECATLPYVIRYKHDD
+HYLTLCHGEEASD-SDWCELCEGKLSTGGEKGFYKCDD-CCTTLHINCLL
+GPNPFLKPGQTFTLGRNEFLVIRNNS--PRPICGTCNMRRPYPVMFFW
+>AthaCh ..
+YFGCKGCNGKNHEEYEQAPDEIKHHLHRKHSLQLVFFSEGKERKCYCCDD
+DLEKVIYCCVSCDYAMNMACAKKPPVLSIDHPKWHEHTLVLFPRRAFLTC
+NLCGLADARSPLYMCPPCDFVVHLRCIDLPRVIRISRHHHRISFTPSFDQ
+ERLSCGVCQKNIDNDYGGYSCIKEGC-FYAAHSKCATQRNVWDGKELEGE
+QEEEIKEVE-PFVKISDGIIQHFSHQHHHLRLDDNINRDYDENKECQACI
+RPIYFGNFYSCMQCEFILHEECANLFRQIYHPIHPHMLSLGYDNIVDHEV
+MCAAYPSLWTAGFFYECGKEGCDFKLPVQFATTSEPLVHESHMHPLFLTS
+KPEEDPRRCSVCKESRYARTNETFNCIECDFALCFVCATLPQKVRYKHDK
+HVLTLFYGNETSTITYWCEICEGTIDP--TKRFYVCDEYCCLTLHIKCLL
+GWDLYMKHGSSSFYLEKTVDVLSNNHHMTRPICCYCEKRCPYKICLEW
+
+Smith-Waterman score: 67; 25.6% identity (51.2% similar) in 129 aa overlap (474-599:86-446)
+>AT2G02 ..
+SEPFNYQGHQHPLFL-ALRPNVKPMCHI-CKSTKENQVLNCIEGDFIICF
+ECATLPYVIRYKHDDHYLTLCHGEEASDSDWCELCEGKLSTGG-EKGFYK
+CDDCC-TTLHINCLLGPNPFLKPGQTFTLG
+>AthaCh ..
+STVFSK*NEDEPCFMYKSHPSKHLMCRV\SNSTHHTHKTALLDLLFPRKF
+RTNTLWYLSR----SHKKE*AHAYHAYTSPF----EVK*RIQNIKQSHTQ
+CN*MFHLS*HICSLCKPNIFLDPLQVWMLG
+
+
+
+650 residues in 1 query   sequences
+1482 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:26 2022 done: Thu May 12 17:00:26 2022
+ Total Scan time:  0.210 Total Display time:  0.070
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G02680 - 650 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      267 residues in     1 sequences
+
+Statistics: (shuffled [143]) MLE statistics: Lambda= 0.1530;  K=0.001687
+ statistics sampled from 1 (1) to 142 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (1), width:  16
+ Scan time:  0.180
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|6930690-6930956              ( 267) [f]  260  302 80.3 1.2e-19
+AthaChr4|6930690-6930956              ( 267) [r]   62   40 22.5    0.03
+
+Smith-Waterman score: 302; 50.0% identity (71.3% similar) in 94 aa overlap (385-477:1-264)
+>AT2G02 ..
+NKFCQACALPINEENFYICVECDFILHETCAEAPQKKFHPLHPHALQQKV
+VHENDLFLCDACDRL-CNGFGYECTFEDCDYILDVVCASASEPF
+>AthaCh ..
+NKRCSACTHSIHLQSFYGCIDCDFILHQNCAESPRKKWHFLHNERLTL-V
+TSKDDYFHCTACDRLFSNGFKY----Q*GDMKLDVMCGSIFEPF
+
+Smith-Waterman score: 55; 31.7% identity (61.7% similar) in 60 aa overlap (266-322:175-5)
+>AT2G02 ..
+CDFVTHADCIYIPQTI-RISRHHH-CIS--FTSSLLKGKWSCGV-CRQEV
+-DRKYGAYTCNAC
+>AthaCh ..
+CSESNH-PCL*LK*DV/RLCRKCH/CLSRRFSAVLVKNKITIDT/CHRMI
+GDEWSGCKHCNAC
+
+
+
+650 residues in 1 query   sequences
+267 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:26 2022 done: Thu May 12 17:00:26 2022
+ Total Scan time:  0.180 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G15530 - 781 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      141 residues in     1 sequences
+
+Statistics: (shuffled [76]) MLE statistics: Lambda= 0.1732;  K=0.003041
+ statistics sampled from 1 (1) to 75 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (1), width:  16
+ Scan time:  0.100
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|7053767-7053907              ( 141) [r]  176  179 58.5 2.7e-13
+AthaChr4|7053767-7053907              ( 141) [f]   47   60 28.8 0.00024
+
+Smith-Waterman score: 179; 44.7% identity (70.2% similar) in 47 aa overlap (653-699:141-4)
+>AT2G15 ..
+IEPCCICQEEYVEGDNLGTLKCGHEFHKDCIKQWVMIKNLCPIFRFN
+>AthaCh ..
+LQECCICLCEYEDGVELRELPCNHHFHCTCIDKWLHINSRCPLCKFN
+
+Smith-Waterman score: 60; 33.3% identity (52.8% similar) in 36 aa overlap (621-656:32-136)
+>AT2G15 ..
+VSTGLSEEVILKAMKQHKHTSSSPSSVELHQNIEPC
+>AthaCh ..
+I*SHLSMQVQ*K*WLQGSSLSSTPSSYSQRQMQHSC
+
+
+
+781 residues in 1 query   sequences
+141 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:26 2022 done: Thu May 12 17:00:26 2022
+ Total Scan time:  0.100 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      204 residues in     1 sequences
+
+Statistics: (shuffled [147]) MLE statistics: Lambda= 0.1917;  K=0.006979
+ statistics sampled from 1 (1) to 146 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.140
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|7076698-7076901              ( 204) [r]  203  226 74.2 3.2e-18
+AthaChr4|7076698-7076901              ( 204) [f]   35   35 21.4   0.025
+
+Smith-Waterman score: 226; 56.1% identity (77.3% similar) in 66 aa overlap (29-94:198-4)
+>AT2G20 ..
+LARLSQSYYPKLSLVSKTFRAILASPELYQTRILLSRTETFLYVCLSFPG
+EPNPGWFTLYRKPNQT
+>AthaCh ..
+LARVSRLYYPILSLVSKRFSSLVASPELYKIRKLLGQTESCLYVCLESMS
+GFDRHWFTLCRRPTRT
+
+Smith-Waterman score: 40; 26.0% identity (54.0% similar) in 50 aa overlap (58-99:48-191)
+>AT2G20 ..
+QTRILLSRTETFLYVCLSF--------PGEPNPGWFTLYRKPNQTLTTKK
+>AthaCh ..
+QTWILGTRKDNSRFVLIAFGSYKAQAMPRES*ISW-KLRRESGSTISRRE
+
+
+
+349 residues in 1 query   sequences
+204 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:26 2022 done: Thu May 12 17:00:27 2022
+ Total Scan time:  0.140 Total Display time:  0.000
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      186 residues in     1 sequences
+
+Statistics: (shuffled [90]) MLE statistics: Lambda= 0.1446;  K=0.001761
+ statistics sampled from 1 (1) to 90 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.120
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|7450821-7451006              ( 186) [r]  159  165 48.7 1.4e-10
+AthaChr4|7450821-7451006              ( 186) [f]   23   23 19.1    0.11
+
+Smith-Waterman score: 165; 46.8% identity (67.7% similar) in 62 aa overlap (47-108:186-4)
+>AT2G20 ..
+FRAILASPELYQTRILLSRTETFLYVCLSFPGEPNPGWFTLYRKPNQTLT
+TKKKKNSVHLLA
+>AthaCh ..
+FSFSLVSPELYTTRSLLGRTDSCLNVCLRFPPERNQRWFTLSLKHNNGTV
+ANNKSSCNQMQA
+
+Smith-Waterman score: 32; 35.3% identity (70.6% similar) in 17 aa overlap (39-55:119-166)
+>AT2G20 ..
+KLSLVSKTFRAILASPE
+>AthaCh ..
+QLSVRPKSDRVV*SSGE
+
+>--
+Smith-Waterman score: 31; 41.7% identity (66.7% similar) in 12 aa overlap (76-87:55-87)
+>AT2G20 ..
+FPGEPNPGWFTL
+>AthaCh ..
+F*GESEPTLITF
+
+
+
+349 residues in 1 query   sequences
+186 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:27 2022 done: Thu May 12 17:00:27 2022
+ Total Scan time:  0.120 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G02680 - 650 aa
+Library: tmp_1652389225.336940/TMP.FA2
+     1365 residues in     1 sequences
+
+Statistics: (shuffled [123]) MLE statistics: Lambda= 0.1353;  K=0.0005162
+ statistics sampled from 1 (1) to 122 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.240
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|8603472-8604836              (1365) [r] 1117 1021 214.9 1.8e-59
+AthaChr4|8603472-8604836              (1365) [f]   37   37 22.8    0.11
+
+Smith-Waterman score: 1325; 42.3% identity (67.5% similar) in 461 aa overlap (142-585:1365-4)
+>AT2G02 ..
+RAEKVGTDYYYCVECDMRYHKECVESPLRINYPSHANHSFQLYS-SKKRF
+KYCIMCRKKVNGLVYYCALCDMYMHTLCAQAVIPFFIDQPKRHAHILTLF
+PRQASLTCNICGVLDELHFTYVCPICDFVTHADCIYIPQTIRISRHHHCI
+SFTSSLLKGKWSCGVCRQEVDRKYGAYTC--NACNGYTVHTRCALRNDIW
+DGKELEGVQEDE--EVEPPFKRISDGIILHFSH-GCQMEL-ETSGVHVGG
+NKFCQACALPINEENFYICVECDFILHETCAEAPQKKFHPLHPHALQQKV
+VHENDLF----LCDACDRLCN-GFGYECTFEDCDYILDVVCASASEPFNY
+QGHQHPLFLALRPNVKPMCHICKST---KENQVLNCIEGDFIICFECATL
+PYVIRYKHDDHYLTLCHGEEASD-SDWCELCEGKLSTGGEKGFYKCDD-C
+CTTLHINCLLG
+>AthaCh ..
+RITEEGLCHIHCQTCNVDNHGEYEKAPVMIKHALHPNHSLQLVLLNGDTT
+RECYCCDNDLEEVFYYCSACDYAMNIACVEKPRVLSLDQPKWHEHTLTQF
+PRKTSVTCNVCSLAYSSCPFYICPPCDFVVHQKCLSLPRVIRISRHFHRI
+YFTLSFDQGVRCCGVCRRKIDNDYGGYSCKKDGCS-YVAHSKCATQSNVW
+DGKELEGEPEEDINEIE-PFVTLRDGSIRHFSHEHHRLKLDENTSRDYNE
+NKLCQACITPIYFGNVYSCMQCDFSLHEECAKLSRKTHHPVHPHLL--TL
+VGKSDIMDATKSCSVCPWKCTTGFFYECRERECRFKVHVQCATIYEPLVH
+ESHMDPLFLTSKPGEERRCCVCKELGHCSTNETFNCIECDFALCFKCATL
+PHKVRYKHDKHMLTLSYGEETSTIPNWCEVCEKKIKS--KERFYMCDEYC
+CVTLHIECMLG
+
+Smith-Waterman score: 44; 55.6% identity (66.7% similar) in 9 aa overlap (418-426:750-773)
+>AT2G02 ..
+PQKKFHPLH
+>AthaCh ..
+PQVLYHPTH
+
+>--
+Smith-Waterman score: 76; 23.8% identity (49.5% similar) in 105 aa overlap (409-512:350-641)
+>AT2G02 ..
+ILHETCAEAPQKKFHPLHPHALQQKVVHENDLFLCDAC-DRLCNGFGYEC
+TFEDCDYILDVVCASASEPFNYQGHQHPLFLALR-PNVKPMCHICKSTKE
+NQVLNC
+>AthaCh ..
+VAHCTCT----LKRHSLSLHS*KKPVVHFQGQTEHDFV\DP*CQIFPLE*
+V--DVDVLGDVFCETVLHIL-RED*NHIAYMSRRYQNISE*CMLGTTYSR
+CNLYSC
+
+>--
+Smith-Waterman score: 56; 55.6% identity (74.1% similar) in 27 aa overlap (269-292:785-860)
+>AT2G02 ..
+VTHADC-IYIPQTI---RIS-RHHHCISF
+>AthaCh ..
+VAHFEC/VYIRTTILFARIT/RHNHCRSF
+
+
+
+650 residues in 1 query   sequences
+1365 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:27 2022 done: Thu May 12 17:00:27 2022
+ Total Scan time:  0.240 Total Display time:  0.090
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G29730 - 468 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      288 residues in     1 sequences
+
+Statistics: (shuffled [92]) MLE statistics: Lambda= 0.1312;  K=0.0007238
+ statistics sampled from 1 (1) to 92 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.130
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|8716821-8717108              ( 288) [r]  227  249 62.6 1.9e-14
+AthaChr4|8716821-8717108              ( 288) [f]   30   30 21.2   0.055
+
+Smith-Waterman score: 249; 46.3% identity (77.9% similar) in 95 aa overlap (372-462:282-4)
+>AT2G29 ..
+IVTWPMYAEQQLNAFLMVKELKLAVELKLDYR----VHSDEIVNANEIET
+AIRYVMDTDNNVVRKRVMDISQMIQRATKNGGSSFAAIEKFIYDV
+>AthaCh ..
+VVTWPLYAEQKISAFAMVEELGLAVQIRKFFRGDMLVGGMEIVTTVDIER
+AVRCVMENDSE-VRNRVKEMAEKCHVASMDGGSSQVALQKFIQDV
+
+Smith-Waterman score: 32; 33.3% identity (73.3% similar) in 15 aa overlap (401-415:154-195)
+>AT2G29 ..
+DYRVHSDEIVNANEI
+>AthaCh ..
+DYLHPSDQHISSKEL
+
+
+
+468 residues in 1 query   sequences
+288 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:27 2022 done: Thu May 12 17:00:27 2022
+ Total Scan time:  0.130 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G02680 - 650 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      582 residues in     1 sequences
+
+Statistics: (shuffled [134]) MLE statistics: Lambda= 0.1527;  K=0.001379
+ statistics sampled from 1 (1) to 134 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.130
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|9055780-9056361              ( 582) [f]  453  546 134.5 1.3e-35
+AthaChr4|9055780-9056361              ( 582) [r]   47   47 24.5   0.016
+
+Smith-Waterman score: 546; 40.6% identity (65.5% similar) in 197 aa overlap (232-426:1-579)
+>AT2G02 ..
+RHAHILTLFPRQASLTCNICGVLDELHFTYVCPICDFVTHADCIYIPQTI
+RISRHHHCISFTSSLLKGKWSCGVCRQEVDRKYGAYTCNACNGYTVHTRC
+ALRNDIWDGKELEGVQEDEEVEPPFKRISDGIILHFSHGCQ-MELETSGV
+HVGGNKFCQACALPINEENFYICVECD-FILHETCAEAPQKKFHPLH
+>AthaCh ..
+RLMHLLTLMP-QRNFVCDACGMDDDPN-PYVCLPCNFMIHQNCIDKPSII
+KIYRHDHRLYYNHCLDAGDWKCGVCNKEINWTCGAYSCSKCPDFAIHPRC
+VKRFGIWDGIELEGIPENNVEVKSYEVIEEGEIRHFSHEKHNLKLQEESD
+ANNECMLCKACNYPIYSNSFYSCMECDDFILHKKCA-PPEKKIDPFY
+
+Smith-Waterman score: 48; 50.0% identity (80.0% similar) in 10 aa overlap (263-272:240-214)
+>AT2G02 ..
+CPICDFVTHA
+>AthaCh ..
+CPVYLFITHS
+
+
+
+650 residues in 1 query   sequences
+582 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:27 2022 done: Thu May 12 17:00:27 2022
+ Total Scan time:  0.130 Total Display time:  0.030
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G35740 - 581 aa
+Library: tmp_1652389225.336940/TMP.FA2
+     1820 residues in     1 sequences
+
+Statistics: (shuffled [83]) MLE statistics: Lambda= 0.1302;  K=0.0003005
+ statistics sampled from 1 (1) to 83 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.270
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|9291246-9293065              (1820) [f] 2154 2160 423.0 4.9e-122
+AthaChr4|9291246-9293065              (1820) [r]   34   34 23.6    0.08
+
+Smith-Waterman score: 3020; 75.8% identity (88.5% similar) in 607 aa overlap (1-576:1-1817)
+>AT2G35 ..
+MVEEA-SKSEQINITEVWTTTWETPYIMRLALSAGIGGLLFGYNTGVIAG
+ALLYIKEEFGEVDNKTWLQEIIVSMTVAGAIVGAAIGGWYNDKFGRRMSV
+LIADVLFLLGALVMVIAHAPWVIILGRLLVGFGVGMASMTSPLYISEMSP
+ARIRGALVSTNGLLITGGQFLSYLINLAFV-H------------------
+------------TPGTWRWMLGVSAIPAIIQFCLMLTLPESPRWLYRNDR
+KAESRDILERIYPAEMVEAEIAALKESVRAETADEDIIGHTFSDKLRGAL
+SNPVVRHGLAAGITVQVAQQFVGINTVMYYSPTILQFAGYASNKTAMALA
+LITSGLNAVGSVVSMMFVDRYGRRKLMIISMFGIITCLVILAAVFNEASN
+HAPKIDKRDSRNFAKNATCPAFAPFTASRSPPSNWNCMKCLQYDCGFCSN
+GAQEYAPGACIVQSADMKALCHSKGRTFFKDGCPSKFGYLAIVFLGLYII
+VYAPGMGTVPWIVNSEIYPLRYRGLAGGIAAVSNWMSNLVVSETFLTLTN
+AVGSSGTFLLFAGSSAVGLFFIWLLVPETKGLQFEEVEKLLEGGFRPSLL
+RPTTKENQ
+>AthaCh ..
+MVEGGIAKADKTEFTECWRTTWKTPYIMRLALSAGIGGLLFGYDTGVISG
+ALLFIKEDFDEVDKKTWLQSTIVSMAVAGAIVGAAVGGWINDKFGRRMSI
+LIADVLFLIGAIVMAFAPAPWVIIVGRIFVGFGVGMASMTSPLYISEASP
+ARIRGALVSTNGLLITGGQFFSYLINLAFV/HCK*K*FSFKFLCIITNSR
+MSLNLIENVVE*TPGTWRWMLGVAGVPAIVQFVLMLSLPESPRWLYRKDR
+IAESRAILERIYPADEVEAEMEALKLSVEAEKADEAIIGDSFSAKLKGAF
+GNPVVRRGLAAGITVQVAQQFVGINTVMYYSPSIVQFAGYASNKTAMALS
+LITSGLNALGSIVSMMFVDRYGRRKLMIISMFGIIACLIILATVFSQAAI
+HAPKIDAFESRTFAPNATCSAYAPLAAENAPPSRWNCMKCLRSECGFCAS
+GVQPYAPGACVVLSDDMKATCSSRGRTFFKDGCPSKFGFLAIVFLGLYIV
+VYAPGMGTVPWIVNSEIYPLRYRGLGGGIAAVSNWVSNLIVSESFLSLTH
+ALGSSGTFLLFAGFSTIGLFFIWLLVPETKGLQFEEVEKLLEVGFKPSLL
+RRREKKGK
+
+Smith-Waterman score: 45; 35.7% identity (57.1% similar) in 28 aa overlap (400-427:1441-1364)
+>AT2G35 ..
+PSNWNCMKCLQYDCGFCSNGAQEYAPGA
+>AthaCh ..
+PSLKNVLP-LELQVAFMSSDNTTHAPGA
+
+>--
+Smith-Waterman score: 39; 40.0% identity (65.0% similar) in 20 aa overlap (149-168:503-447)
+>AT2G35 ..
+PARIRGALVSTNGLLITGGQ
+>AthaCh ..
+PPVMRRPLVLTSAPLILAGE
+
+>--
+Smith-Waterman score: 38; 33.3% identity (60.0% similar) in 15 aa overlap (14-28:563-522)
+>AT2G35 ..
+TEVWTTTWETPYIMR
+>AthaCh ..
+TKSFSLTWTKARLMR
+
+>--
+Smith-Waterman score: 52; 36.1% identity (61.1% similar) in 36 aa overlap (385-416:949-846)
+>AT2G35 ..
+ATC---PAFAPFTAS-RSPPSNWN-CMKCLQYDCGFC
+>AthaCh ..
+ATCTVIPAASPRRTT/RIPESSFQLCREAISNDCLVC
+
+>--
+Smith-Waterman score: 36; 31.2% identity (56.2% similar) in 32 aa overlap (126-156:1612-1520)
+>AT2G35 ..
+RLLVGFGVGMASMTSPLYIS-EMSPARIRGAL
+>AthaCh ..
+RLETQFETAAIPPPRPLYLSG*ISELTIHGTV
+
+>--
+Smith-Waterman score: 36; 30.8% identity (84.6% similar) in 13 aa overlap (64-76:1651-1616)
+>AT2G35 ..
+KTWLQEIIVSMTV
+>AthaCh ..
+RAWVSERKLSLTI
+
+
+
+581 residues in 1 query   sequences
+1820 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:27 2022 done: Thu May 12 17:00:27 2022
+ Total Scan time:  0.270 Total Display time:  0.140
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G38310 - 208 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      495 residues in     1 sequences
+
+Statistics: (shuffled [181]) MLE statistics: Lambda= 0.1563;  K=0.00232
+ statistics sampled from 1 (1) to 181 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.160
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|9928843-9929337              ( 495) [f]  575  584 144.5 3.2e-39
+AthaChr4|9928843-9929337              ( 495) [r]   31   31 19.9     0.1
+
+Smith-Waterman score: 584; 55.8% identity (78.2% similar) in 165 aa overlap (40-201:1-492)
+>AT2G38 ..
+ARFHTHEVGPNQCCSAVIQEISAPISTVWSVVRRFDNPQAYKHFLKSCSV
+IGGDGDNVGSLRQVHVVSGLPAASSTERLDILDDERHVISFSVVGGDHRL
+SNYRSVTTLHPSPISG---TVVVESYVVDVPPGNTKEETCDFVDVIVRCN
+LQSLAKIAENTAAES
+>AthaCh ..
+AEFHTYQLDPGSCSSLHAQRIHAPPELVWSIVRRFDKPQTYKHFIKSCSV
+EQNFEMRVGCTRDVIVISGLPANTSTERLDILDDERRVTGFSIIGGEHRL
+TNYKSVTTVHRFEKENRIWTVVLESYVVDMPEGNSEDDTRMFADTVVKLN
+LQKLATVAEAMARNS
+
+Smith-Waterman score: 45; 34.8% identity (56.5% similar) in 23 aa overlap (148-170:275-210)
+>AT2G38 ..
+LHPSPISGTVVVESYVVDVPPGN
+>AthaCh ..
+LNPVTLRSSSSISSLSVDVFAGN
+
+>--
+Smith-Waterman score: 35; 33.3% identity (50.0% similar) in 30 aa overlap (127-156:467-381)
+>AT2G38 ..
+VISFSVVGGDHRLSNYRSVTTLHPSPISGT
+>AthaCh ..
+VASFCKLSFTTVSANIRVSSSELPSGISTT
+
+
+
+208 residues in 1 query   sequences
+495 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:27 2022 done: Thu May 12 17:00:27 2022
+ Total Scan time:  0.160 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G37550 - 457 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      120 residues in     1 sequences
+
+Statistics: (shuffled [48]) MLE statistics: Lambda= 0.1778;  K=0.003672
+ statistics sampled from 1 (1) to 48 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.060
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|9937336-9937455              ( 120) [f]  236  236 74.9 1.5e-18
+AthaChr4|9937336-9937455              ( 120) [r]   21   21 19.7    0.06
+
+Smith-Waterman score: 236; 72.5% identity (90.0% similar) in 40 aa overlap (18-57:1-117)
+>AT2G37 ..
+VCVDCSQKNPQWASISYGIFMCLECSGKHRGLGVHISFVR
+>AthaCh ..
+VCFDCSAKNPTWASVTYGIFLCIDCSATHRNLGVHISFVR
+
+Smith-Waterman score: 42; 40.0% identity (53.3% similar) in 15 aa overlap (15-29:60-31)
+>AT2G37 ..
+ENKVCVDCSQKNPQW
+>AthaCh ..
+ENPICNRC----PSW
+
+
+
+457 residues in 1 query   sequences
+120 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:27 2022 done: Thu May 12 17:00:28 2022
+ Total Scan time:  0.060 Total Display time:  0.040
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G38310 - 208 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      465 residues in     1 sequences
+
+Statistics: (shuffled [98]) MLE statistics: Lambda= 0.1508;  K=0.001873
+ statistics sampled from 1 (1) to 97 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.110
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|10254377-10254841            ( 465) [f]  475  492 121.1 3.4e-32
+AthaChr4|10254377-10254841            ( 465) [r]   29   29 20.4   0.068
+
+Smith-Waterman score: 492; 52.3% identity (75.8% similar) in 153 aa overlap (51-195:4-459)
+>AT2G38 ..
+QCCSAVIQEISAPISTVWSVVRRFDNPQAYKHFLKSCSVIGGDG-----D
+NVGSLRQVHVVSGLPAASSTERLDILDDERHVISFSVVGGDHRLSNYRSV
+TTLHPSP---ISGTVVVESYVVDVPPGNTKEETCDFVDVIVRCNLQSLAK
+IAE
+>AthaCh ..
+RCRSSVVETIEAPLPLVWSILRSFDKPQAYQRFVKSCTMRSGGGGGKGGE
+GKGSVRDVTLVSGFPADFSTERLEELDDESHVMVVSIIGGNHRLVNYKSK
+TKVVASPEDMAKKTVVVESYVVDVPEGTSEEDTIFFVDNIIRYNLTSLAK
+LTK
+
+Smith-Waterman score: 45; 34.0% identity (59.6% similar) in 47 aa overlap (73-119:300-165)
+>AT2G38 ..
+RF-DNPQAYKHFLKS-CSVIGGDGDNVGSLRQVHVVSGLPAASSTERLD
+>AthaCh ..
+RF/DN*QAYGYRQ*Y/CTTIT*DSSSSSSSLSVLKSAGKPETNVTSRTE
+
+>--
+Smith-Waterman score: 38; 27.8% identity (77.8% similar) in 18 aa overlap (185-202:459-409)
+>AT2G38 ..
+CNLQSLAKIAENTAAESK
+>AthaCh ..
+CELSK*SKVIPNNVINKK
+
+>--
+Smith-Waterman score: 32; 26.7% identity (60.0% similar) in 30 aa overlap (107-136:392-321)
+>AT2G38 ..
+SGLPAASSTERLDILDDERHVISFSVVGGD
+>AthaCh ..
+SLVPSGTSTT*LSTT-----TVFFAISSGD
+
+>--
+Smith-Waterman score: 34; 24.0% identity (64.0% similar) in 25 aa overlap (56-80:119-49)
+>AT2G38 ..
+VIQEISA-PISTVWSVVRRFDNPQAY
+>AthaCh ..
+MVQLLTK/PLISLWFVETT*DGPH*W
+
+
+
+208 residues in 1 query   sequences
+465 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:28 2022 done: Thu May 12 17:00:28 2022
+ Total Scan time:  0.110 Total Display time:  0.030
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      318 residues in     1 sequences
+
+Statistics: (shuffled [115]) MLE statistics: Lambda= 0.1605;  K=0.00216
+ statistics sampled from 1 (1) to 115 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.130
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|10531840-10532157            ( 318) [f]  208  259 73.7 7.1e-18
+AthaChr4|10531840-10532157            ( 318) [r]   26   26 19.8    0.11
+
+Smith-Waterman score: 259; 40.9% identity (65.5% similar) in 110 aa overlap (229-338:1-315)
+>AT2G20 ..
+DLGRGSFCMIEEITYHYDPSVKFRWRRRQGGVWRSLVGLEGLPKFARYSS
+VKLADCGGKLVVLWHKYVPASGYEEKMVWCAEISLEKRSKKEIWGKIEWF
+DAVLRVPKYY
+>AthaCh ..
+NLGE-STCEIENVCYCYS-NKRYWWYDAKCEEWRLVKGVSGLYEYYKTDS
+-EIGNYGGKLVVFWDRAV-SRLTATKEIWCAMISLEKGHDGEIWGHIEWL
+DAVLIAPRSY
+
+Smith-Waterman score: 42; 24.2% identity (58.1% similar) in 62 aa overlap (192-251:269-88)
+>AT2G20 ..
+ELAPLFPKLRSLLSTEV--VAFKPKVSEGYEV-LGFSVNTDLGRGSFCMI
+EEITYHYDPSVKF
+>AthaCh ..
+QISPSCPFSREIIAHQISLVAVKRDTARSQKT/IKFSTIITYFRISFIIL
+VKSTHTFD*SPLF
+
+
+
+349 residues in 1 query   sequences
+318 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:28 2022 done: Thu May 12 17:00:28 2022
+ Total Scan time:  0.130 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      288 residues in     1 sequences
+
+Statistics: (shuffled [174]) MLE statistics: Lambda= 0.1615;  K=0.002886
+ statistics sampled from 1 (1) to 174 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.110
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|10535765-10536052            ( 288) [f]  202  223 64.7 3.4e-15
+AthaChr4|10535765-10536052            ( 288) [r]   28   28 19.2    0.15
+
+Smith-Waterman score: 223; 45.8% identity (66.7% similar) in 96 aa overlap (20-110:1-285)
+>AT2G20 ..
+LPNDLIVTILARLSQSYYPKLSLVSKTFRAILASPELYQTRILLSRTETF
+LYVCLSFPGEP-NPGWFTLYRKP--NQTLT--TKKKKNSVHLLAPI
+>AthaCh ..
+LPDDIVLNILARISTSYYQTLSLVSKTFRLLILSKELDMERSYLGT*KPC
+VYVCLQSPTHPFDRRWFGLWIKPYDHQPLTHWTIDIKCTGHWLLPM
+
+Smith-Waterman score: 37; 46.2% identity (76.9% similar) in 13 aa overlap (1-13:116-81)
+>AT2G20 ..
+MSSSPEKKRRKKL
+>AthaCh ..
+MSSSLERMSKRKV
+
+
+
+349 residues in 1 query   sequences
+288 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:28 2022 done: Thu May 12 17:00:28 2022
+ Total Scan time:  0.110 Total Display time:  0.040
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      135 residues in     1 sequences
+
+Statistics: (shuffled [93]) MLE statistics: Lambda= 0.1532;  K=0.002451
+ statistics sampled from 1 (1) to 93 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.090
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|11488678-11488812            ( 135) [f]  134  152 47.2   3e-10
+AthaChr4|11488678-11488812            ( 135) [r]   34   34 21.1   0.021
+
+Smith-Waterman score: 152; 42.2% identity (73.3% similar) in 45 aa overlap (304-348:1-132)
+>AT2G20 ..
+KMVWCAEISLEKRSKKEIWGKIEWFDAVLRVPKYYQFVGAKSATV
+>AthaCh ..
+RKIWCAEITIEKRKDGEIWGILEWFDDVYKAKDELEYLAVVHAVV
+
+Smith-Waterman score: 47; 30.6% identity (47.2% similar) in 36 aa overlap (50-85:109-5)
+>AT2G20 ..
+ILASPELYQTRILLSRTETFLYVCLSFPGEPNPGWF
+>AthaCh ..
+ILAHPWLYIHRQTILVSPKSLHPCVFQS*FPHTKFF
+
+
+
+349 residues in 1 query   sequences
+135 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:28 2022 done: Thu May 12 17:00:28 2022
+ Total Scan time:  0.090 Total Display time:  0.000
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G25630 - 490 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      466 residues in     1 sequences
+
+Statistics: (shuffled [46]) MLE statistics: Lambda= 0.1393;  K=0.0007094
+ statistics sampled from 1 (1) to 46 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.140
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|11562406-11562871            ( 466) [f]  383  297 76.2 2.6e-18
+AthaChr4|11562406-11562871            ( 466) [r]   28   28 22.2   0.048
+
+Smith-Waterman score: 312; 37.8% identity (59.0% similar) in 156 aa overlap (175-293:1-463)
+>AT2G25 ..
+DFRDYADICFKSFGDRVKHWITLNEPLTVVQQGYVAGVMAPGRCSKFTNP
+NCTAGNGATEPYIVGHNLILAHGEAIKVYRKKYKA---------------
+----------------------S-QKGQVGIALNAGWNLPYTESAEDRLA
+AARAMAF
+>AthaCh ..
+DFEHYANICFRHFGDRVKFWSTFNEPNVQVILGYRTGTYPPSRCSKPFG-
+NCSCGDSYIEPLVAAHNIILSHLAAVNLYRTKFQVYQYCYRV*QKKNKK*
+SILLPCTKYFKTLLI*DWFRLGT\QRGQIGIVMNTIWFEPISDSLADRLA
+ADRAQAF
+
+Smith-Waterman score: 32; 55.6% identity (66.7% similar) in 9 aa overlap (27-35:44-21)
+>AT2G25 ..
+TPKLRKTDF
+>AthaCh ..
+SPKCRKQIF
+
+>--
+Smith-Waterman score: 50; 24.0% identity (64.0% similar) in 50 aa overlap (34-83:256-114)
+>AT2G25 ..
+DFPEDFIFGAATSAYQVEGAAQEDGR-GPSIWDTFSEKYPEKIKDGSNGS
+I
+>AthaCh ..
+DIPE-ILYGIS*RRLNVKG*CCERLQ/GGSM*ESPHEQFPKGLEQREGG*
+V
+
+>--
+Smith-Waterman score: 40; 26.7% identity (66.7% similar) in 30 aa overlap (391-418:377-294)
+>AT2G25 ..
+VMYITENGRDEASTGKIL--LKDGDRIDYY
+>AthaCh ..
+VLFVVPK-RNQS*IKRVLKYLVHGNNIDYF
+
+
+
+490 residues in 1 query   sequences
+466 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:28 2022 done: Thu May 12 17:00:28 2022
+ Total Scan time:  0.140 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G25630 - 490 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      165 residues in     1 sequences
+
+Statistics: (shuffled [67]) MLE statistics: Lambda= 0.1603;  K=0.001951
+ statistics sampled from 1 (1) to 67 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.130
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|11707442-11707606            ( 165) [r]   89  170 53.9 4.8e-12
+AthaChr4|11707442-11707606            ( 165) [f]   30   30 21.5   0.027
+
+Smith-Waterman score: 170; 43.6% identity (72.7% similar) in 55 aa overlap (432-485:165-4)
+>AT2G25 ..
+GANVKGFFAWSLLDNFEWASGYTVRFGLVYVDFND-RRKRYLKKSAHWFR
+HLLNG
+>AthaCh ..
+GSDTRGYFIWSFMDLYELVKGYEFSFGLYSVNFSDPHRTRSPKLSAHWYS
+AFLKG
+
+Smith-Waterman score: 39; 66.7% identity (83.3% similar) in 12 aa overlap (185-196:32-63)
+>AT2G25 ..
+KSFGDRVKH-WIT
+>AthaCh ..
+ESFGDLVR*/WIT
+
+
+
+490 residues in 1 query   sequences
+165 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:28 2022 done: Thu May 12 17:00:28 2022
+ Total Scan time:  0.130 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G26900 - 410 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      249 residues in     1 sequences
+
+Statistics: (shuffled [135]) MLE statistics: Lambda= 0.1797;  K=0.004454
+ statistics sampled from 1 (1) to 135 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.140
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|11992310-11992558            ( 249) [r]  136  233 73.0 1.1e-17
+AthaChr4|11992310-11992558            ( 249) [f]   34   34 21.4   0.037
+
+Smith-Waterman score: 233; 44.6% identity (73.5% similar) in 83 aa overlap (192-273:249-4)
+>AT2G26 ..
+GLILVSCCPGGQASNVATYISKGNVA-LSVLMTTCSTIGAIIMTPLLTKL
+LAGQLVPVDAAGLALSTFQVVLVPTIIGVLANE
+>AthaCh ..
+GIMLVSCVSGAQLSNYATFLTDPALAPLSIVMTSLSTATAVLVTPMLSLL
+LIGKKLPVDVKGMISSILQVVIAPIAAGLLLNK
+
+Smith-Waterman score: 36; 31.6% identity (52.6% similar) in 38 aa overlap (274-308:86-196)
+>AT2G26 ..
+FFPKFTSKIITVTPLIGVI---LTTLLCASPIGQVADV
+>AthaCh ..
+FFPMSRSDSIGVTRTAVAVDRDVMTMLRGANAGSVRNV
+
+
+
+410 residues in 1 query   sequences
+249 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:28 2022 done: Thu May 12 17:00:28 2022
+ Total Scan time:  0.140 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G02680 - 650 aa
+Library: tmp_1652389225.336940/TMP.FA2
+     1491 residues in     1 sequences
+
+Statistics: (shuffled [137]) MLE statistics: Lambda= 0.1356;  K=0.0005027
+ statistics sampled from 1 (1) to 137 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.260
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|13339635-13341125            (1491) [f] 1039 1015 214.2 3.1e-59
+AthaChr4|13339635-13341125            (1491) [r]   40   40 23.5    0.08
+
+Smith-Waterman score: 1401; 42.1% identity (67.7% similar) in 501 aa overlap (150-628:1-1479)
+>AT2G02 ..
+YYYCVECDMRYHKECVESPLRINYPSHANHSFQLY---SSKKRFKYCIMC
+RKKVNGLVYYCALCDMYMHTLCAQAVIPFFIDQPKRHAHILTLFPRQASL
+TCNICGVLDELHFTYVCPICDFVTHADCIYIPQTIRISRHHHCISFTSSL
+LKGKWSCGVCRQEVDRKYGAYTC--NACNGYTVHTRCALRNDIWDGKELE
+GVQED--EEVEPPFKRISDGIILHFSHGCQMEL---ETSGVHVGGNKFCQ
+ACALPINEENFYICVECDFILHETCAEAPQKKFHPLHPHALQQKVVHEND
+LFL---CDACDRLCN-GFGYECTFEDCDYILDVVCASASEPFNYQGHQHP
+LFLALRPNVKPMCHICKSTKEN---QVLNCIEGDFIICFECATLPYVIRY
+KHDDHYLTLCHGEEASD-SDWCELCEGKLSTGGEKGFYKCDDCCT-TLHI
+NCLLGPNPFLKPGQTFTLGRNEFLVIRNNS---PRPICGTCNMRRPYPVM
+F
+>AthaCh ..
+HFRCRGCNGDNHKENEKAPLEVKHPLHPKHPLQLVLSQSSGGRTRECYCC
+DEDLLHIFYCCLACNFSMNVACTKKPAVLYRNHPRWHEHTLALFPRQASL
+TCNLCALADSSSPIYMCPPCDFVVHLRCTGLPRVIKISRHLHRISFTFSF
+DRGDLSCSVCRRKIDEDYGGYTCIKDGCS-YAAHSKCATQKNVWDGIELE
+GEPEEVEEEVVDPFVTISDGVIQHFGHP-QHHLRLDENTSRDYDEDKLCQ
+ACVMPIYFGNFYSCTQCNYILHEACANFSRKMHHPVHPHVLTL-VNSDGA
+INVRKECAACPWMCTTGFFYECSKE--DFQLHVQCANLSEPLVHESHMHP
+LFLTSKPGERRLCSACKESYFSVTRETFNCIECDFALCFRCATLPQKVRY
+KHDKHMLTLSYGEETSTMTYWCEVCERNLNP--KERFYKCDEYCSITLHI
+ECMLGVALYIRPGSSWICFNNKKMYVLPNNHHMSRPRCFMCKKRCPQKIV
+F
+
+Smith-Waterman score: 77; 28.0% identity (48.0% similar) in 75 aa overlap (125-196:1396-1191)
+>AT2G02 ..
+FWCNNKEADPENDCVICRAEKVGTDYYYCVECDMRYHKECVESPLRINYP
+S--HANHSFQL-YSSK-KRFKYCIMC
+>AthaCh ..
+FYC*SRSTMNQA*CI-----KPPPTYIQCVA**SSTHHTYKIAPLDLNFS
+RKLHTNMSWYL/YSSPYERVSICLSC
+
+>--
+Smith-Waterman score: 68; 26.1% identity (48.9% similar) in 92 aa overlap (218-306:958-687)
+>AT2G02 ..
+CAQAVIPFFIDQPKRHAHILTLFPRQASLT-CNICG-VLDELHFTYVCPI
+C-DFVTHADCIY---IPQTIRISRHHHCISFTSSLLKGKWSCGVC
+>AthaCh ..
+CIHRRNQLCTSKDKLHILF*R**HRQSSLK/CSTCG/VYRMMHFAREIGT
+C\SWSI*LHCVQE*KLPK*IGMTQA*HNLSSS*SLLVFSSSLK*C
+
+>--
+Smith-Waterman score: 43; 34.8% identity (65.2% similar) in 46 aa overlap (178-220:1136-1004)
+>AT2G02 ..
+NHSFQLYSSKKRFKYC-IMCRKKVNG--LVYYCALCDMY-MHTLCAQ
+>AthaCh ..
+SHSMQLNVSLVTLKY-\ALCKRNIISSLLVWMLGIKDAYDFHGLVAQ
+
+>--
+Smith-Waterman score: 48; 31.2% identity (50.0% similar) in 32 aa overlap (418-448:598-506)
+>AT2G02 ..
+PQKKFHPLHPHALQ-QKVVHENDLFLCDACDR
+>AthaCh ..
+PQVRCHPTHFFVLHISNEPHTNSRP*CKYSPR
+
+>--
+Smith-Waterman score: 47; 30.8% identity (51.3% similar) in 39 aa overlap (43-81:121-11)
+>AT2G02 ..
+EKPLSIQNEETSSDEETIDSGDNLPLPLLFACPIVRLTS
+>AthaCh ..
+QKIATKQAEEDV*DEEGV*L-QVEPFHFLYGCHHCNLDS
+
+
+
+650 residues in 1 query   sequences
+1491 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:28 2022 done: Thu May 12 17:00:28 2022
+ Total Scan time:  0.260 Total Display time:  0.110
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G15530 - 781 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      183 residues in     1 sequences
+
+Statistics: (shuffled [54]) MLE statistics: Lambda= 0.1376;  K=0.000885
+ statistics sampled from 1 (1) to 54 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.140
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|13782152-13782334            ( 183) [f]  149  171 50.3 1.1e-10
+AthaChr4|13782152-13782334            ( 183) [r]   30   30 22.3   0.028
+
+Smith-Waterman score: 171; 55.7% identity (78.7% similar) in 61 aa overlap (697-757:1-170)
+>AT2G15 ..
+RFNKERRLCLFIMRMIKMIVPKPLGTSDKIGTIQRRLAWLLRKDDTYK-S
+EKCYKKFSIQNF
+>AthaCh ..
+RLYSKTKQSLYRVRVEVVLVPS--GTSDKIGTIQRRLAWPLRKDDTHK/S
+EK-WSKFFL*NF
+
+Smith-Waterman score: 37; 31.8% identity (63.6% similar) in 22 aa overlap (458-479:89-27)
+>AT2G15 ..
+IPPQNAPPHNPSRTSELSPWSL
+>AthaCh ..
+VPILSDVPEGTSTTSTLTLYKL
+
+
+
+781 residues in 1 query   sequences
+183 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:28 2022 done: Thu May 12 17:00:28 2022
+ Total Scan time:  0.140 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G25630 - 490 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      207 residues in     1 sequences
+
+Statistics: (shuffled [132]) MLE statistics: Lambda= 0.1790;  K=0.003356
+ statistics sampled from 1 (1) to 131 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.150
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|13857942-13858148            ( 207) [r]  122  185 60.9 4.8e-14
+AthaChr4|13857942-13858148            ( 207) [f]   37   37 22.7   0.015
+
+Smith-Waterman score: 185; 42.0% identity (68.1% similar) in 69 aa overlap (418-485:207-4)
+>AT2G25 ..
+YARHLKMVQDAILIGANVKGFFAWSLLDNFEWASGYTVRFGLVYVDFNDR
+-RKRYLKKSAHWFRHLLNG
+>AthaCh ..
+YYLTLSLCL*LIRNGSDTRGYFVWSMVDVYEILSGYTTSFGMYHVNFSDP
+GRKRTPKLSASWYTGFLNG
+
+Smith-Waterman score: 44; 17.4% identity (54.3% similar) in 46 aa overlap (276-321:14-148)
+>AT2G25 ..
+PYTESAEDRLAAARAMAFTFDYFMEPLVTGKYPVDMVNNVKGGRLP
+>AthaCh ..
+PVYQEAESFGVLLRPGSLKFTWYIPKLVVYPLNISYTSTIDHTK*P
+
+
+
+490 residues in 1 query   sequences
+207 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:29 2022 done: Thu May 12 17:00:29 2022
+ Total Scan time:  0.150 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G25630 - 490 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      153 residues in     1 sequences
+
+Statistics: (shuffled [70]) MLE statistics: Lambda= 0.1776;  K=0.003092
+ statistics sampled from 1 (1) to 70 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.140
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|13858775-13858927            ( 153) [r]  135  156 54.2 3.6e-12
+AthaChr4|13858775-13858927            ( 153) [f]   23   23 20.1   0.064
+
+Smith-Waterman score: 156; 46.2% identity (80.8% similar) in 52 aa overlap (299-350:153-4)
+>AT2G25 ..
+MEPLVTGKYPVDMVNNVKGGRLPTFTSKQSNMLKGSYDFIGINYYSSSYA
+KD
+>AthaCh ..
+LKPLVFGDYPDEMKKTV-GSRLPVFSEEESEQVKGSSDFIGIIHYTTFYV
+TN
+
+Smith-Waterman score: 40; 30.4% identity (56.5% similar) in 23 aa overlap (351-373:32-97)
+>AT2G25 ..
+VPCSSENVTMFSDPCASVTGERD
+>AthaCh ..
+IPIKSDDPLTCSDSSSEKTGNLD
+
+
+
+490 residues in 1 query   sequences
+153 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:29 2022 done: Thu May 12 17:00:29 2022
+ Total Scan time:  0.140 Total Display time:  0.000
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G25630 - 490 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      201 residues in     1 sequences
+
+Statistics: (shuffled [88]) MLE statistics: Lambda= 0.1662;  K=0.00223
+ statistics sampled from 1 (1) to 88 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.130
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|13860299-13860499            ( 201) [r]  187  105 39.5 1.3e-07
+AthaChr4|13860299-13860499            ( 201) [f]   27   27 20.8   0.053
+
+Smith-Waterman score: 134; 41.8% identity (52.2% similar) in 67 aa overlap (32-68:201-4)
+>AT2G25 ..
+KTDFPEDFIFGAATSAYQV------------------------------E
+GAAQEDGRGPSIWDTFS
+>AthaCh ..
+RNSFPKDFLFGAATSAYQVRLCFSVLHLSCVVYKIEFLLSMLGNLWK*WE
+GAVAEDGRTPSVWDTFS
+
+Smith-Waterman score: 31; 45.5% identity (81.8% similar) in 11 aa overlap (372-382:157-186)
+>AT2G25 ..
+RDGGIRDLILY
+>AthaCh ..
+RSGGSEEEILW
+
+>--
+Smith-Waterman score: 33; 35.7% identity (78.6% similar) in 14 aa overlap (476-489:53-91)
+>AT2G25 ..
+AHWFRHLLNGKKEN
+>AthaCh ..
+SHYFHKFPNIDKRN
+
+
+
+490 residues in 1 query   sequences
+201 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:29 2022 done: Thu May 12 17:00:29 2022
+ Total Scan time:  0.130 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G25630 - 490 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      165 residues in     1 sequences
+
+Statistics: (shuffled [67]) MLE statistics: Lambda= 0.1694;  K=0.002976
+ statistics sampled from 1 (1) to 67 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.100
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|13861863-13862027            ( 165) [r]  138  190 60.6 4.5e-14
+AthaChr4|13861863-13862027            ( 165) [f]   30   30 21.5   0.026
+
+Smith-Waterman score: 190; 49.1% identity (76.4% similar) in 55 aa overlap (432-485:165-4)
+>AT2G25 ..
+GANVKGFFAWSLLDNFEWASGYTVRFGLVYVDFNDR-RKRYLKKSAHWFR
+HLLNG
+>AthaCh ..
+GSDTRGYFVWSMIDLYELLSGYTTSFGMYYVNFSDPGRKRTPKLSASWYT
+GFLNG
+
+Smith-Waterman score: 35; 26.5% identity (52.9% similar) in 34 aa overlap (276-309:14-106)
+>AT2G25 ..
+PYTESAEDRLAAARAMAFTFDYFMEPLVTGKYPV
+>AthaCh ..
+PVYQEAESFGVLLRPGSLKFT*YIPKLVV--YPL
+
+
+
+490 residues in 1 query   sequences
+165 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:29 2022 done: Thu May 12 17:00:29 2022
+ Total Scan time:  0.100 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G25630 - 490 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      111 residues in     1 sequences
+
+Statistics: (shuffled [141]) MLE statistics: Lambda= 0.1772;  K=0.004064
+ statistics sampled from 1 (1) to 140 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.130
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|13864358-13864468            ( 111) [r]  125  108 40.2 4.2e-08
+AthaChr4|13864358-13864468            ( 111) [f]   30   30 20.3   0.041
+
+Smith-Waterman score: 110; 45.5% identity (72.7% similar) in 44 aa overlap (7-50:111-7)
+>AT2G25 ..
+SVLVFIILASNEVVAKRHSSTPKLRKTDFPEDFIFGAATSAYQV
+>AthaCh ..
+SVFLVILLAT--------SDSDAFTRNNFPKDFLFGAATSAYQV
+
+Smith-Waterman score: 42; 43.8% identity (75.0% similar) in 16 aa overlap (10-25:53-97)
+>AT2G25 ..
+VFIILASNEVVAKRHS
+>AthaCh ..
+LFLVKASLSLVAKRMT
+
+
+
+490 residues in 1 query   sequences
+111 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:29 2022 done: Thu May 12 17:00:29 2022
+ Total Scan time:  0.130 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G38310 - 208 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      515 residues in     1 sequences
+
+Statistics: (shuffled [100]) MLE statistics: Lambda= 0.1665;  K=0.002557
+ statistics sampled from 1 (1) to 100 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.120
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|13901416-13901930            ( 515) [f]  441  226 68.2 3.2e-16
+AthaChr4|13901416-13901930            ( 515) [r]   35   35 22.3   0.021
+
+Smith-Waterman score: 428; 46.5% identity (67.1% similar) in 170 aa overlap (67-204:10-512)
+>AT2G38 ..
+VWSVVRRFDNPQAYKHFLKSCSVIGGDGDNVGSLRQVHVVSGLPAASSTE
+RLDILDDERHVISFSVVGGDHRL---------------------------
+---SNYRSVTTLHPSPI---SGTVVVESYVVDVPPGNTKEETCDFVDVIV
+RCNLQSLAKIAENTAAESKKK
+>AthaCh ..
+VWSIVRRFDEPQKYKPFISRC-VVQGKKLEVGSVREVDLKSGLPATKSTE
+VLEILDDNEHILGIRIVGGDHRLKVN*NFLKCTIHSDKIIVFFRA*FVIC
+PI/SNYSSTISLHSETIDGKTGTLAIESFVVDVPEGNTKEETCFFVEALI
+QCNLNSLADVTERLQAESMEK
+
+Smith-Waterman score: 44; 33.3% identity (53.3% similar) in 15 aa overlap (68-82:256-215)
+>AT2G38 ..
+WSVVRRFDNPQAYKH
+>AthaCh ..
+WYI*GNFNLP*VYDH
+
+>--
+Smith-Waterman score: 43; 25.0% identity (58.3% similar) in 36 aa overlap (31-66:118-14)
+>AT2G38 ..
+PSLSRDSTAARFHTHEVGPNQCCSAVIQEISAPIST
+>AthaCh ..
+PLLLRYQPPASYLVPHTY**MVCIFVVHRISSQLTT
+
+>--
+Smith-Waterman score: 47; 25.0% identity (56.8% similar) in 44 aa overlap (124-165:436-308)
+>AT2G38 ..
+ERHVISFSVVGGDHRLSNYRSVTTLHPSPIS--GTVVVESYVVD
+>AthaCh ..
+KKHVSSFVLPSGTSTTNDSIANVPVFPSIVSECNEMVEE*F*LD
+
+
+
+208 residues in 1 query   sequences
+515 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:29 2022 done: Thu May 12 17:00:29 2022
+ Total Scan time:  0.120 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G25530 - 656 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      117 residues in     1 sequences
+
+Statistics: (shuffled [96]) MLE statistics: Lambda= 0.2023;  K=0.006586
+ statistics sampled from 1 (1) to 96 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.130
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|13947768-13947884            ( 117) [f]  111  125 49.1 1.3e-10
+AthaChr4|13947768-13947884            ( 117) [r]   31   31 21.6   0.024
+
+Smith-Waterman score: 125; 48.7% identity (74.4% similar) in 39 aa overlap (487-524:1-114)
+>AT2G25 ..
+EVPESCSGVARFTFEYLCGRPVGAADYIAV-AKNYHTIF
+>AthaCh ..
+QVPLAADGCAYFLFEELCDRPLGAADYLGLFSKSYPSAF
+
+Smith-Waterman score: 51; 34.3% identity (65.7% similar) in 35 aa overlap (262-294:109-8)
+>AT2G25 ..
+YGATDGIIR-HRQRFH-FHEAMLKINEQMHKYWKE
+>AthaCh ..
+WGKTY*IIRDNRLRLGVYHTALQKESRHIHQQLEE
+
+
+
+656 residues in 1 query   sequences
+117 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:29 2022 done: Thu May 12 17:00:29 2022
+ Total Scan time:  0.130 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G18870 - 240 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      360 residues in     1 sequences
+
+Statistics: (shuffled [89]) MLE statistics: Lambda= 0.1620;  K=0.002321
+ statistics sampled from 1 (1) to 89 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.140
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|14786888-14787247            ( 360) [r]  340  343 94.2 3.7e-24
+AthaChr4|14786888-14787247            ( 360) [f]   26   26 20.2   0.071
+
+Smith-Waterman score: 358; 50.8% identity (74.2% similar) in 124 aa overlap (114-228:360-4)
+>AT2G18 ..
+VTPQFMSDQINGHQDKPEKAKKNPESYG---------LGLEQCVKIIRKL
+ECSGYVESTFRQKFLTWFSLRATSQERNTVTTFMNAFNDDSMALAEQLVD
+TFSDCIWSKGSVIGDRDGGGSSGV
+>AthaCh ..
+ITP-FRSDEIKNRQARIEISMKDNCNNGDHSANGGTESGLEHCVKIIRQL
+ECSGHIDKNFRQKFLTWYSLRATSQEIRVVKIFIDTFIDDPMALAEQLID
+TFDDRVSIKRSAVG---GSGASAV
+
+Smith-Waterman score: 31; 18.8% identity (62.5% similar) in 16 aa overlap (8-23:253-297)
+>AT2G18 ..
+FCQKKKLLVGHFTISY
+>AthaCh ..
+FCSSIR*MITVVTVVF
+
+>--
+Smith-Waterman score: 32; 50.0% identity (62.5% similar) in 8 aa overlap (232-239:179-199)
+>AT2G18 ..
+CIFFLPDC
+>AthaCh ..
+CLKFLSIC
+
+>--
+Smith-Waterman score: 39; 23.1% identity (69.2% similar) in 26 aa overlap (181-206:43-117)
+>AT2G18 ..
+RNTVTTFMNAFNDDSMALAEQLVDTF
+>AthaCh ..
+RNTVVESINELLSQSHGIINKCINEY
+
+
+
+240 residues in 1 query   sequences
+360 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:29 2022 done: Thu May 12 17:00:29 2022
+ Total Scan time:  0.140 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G17600 - 581 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      225 residues in     1 sequences
+
+Statistics: (shuffled [268]) MLE statistics: Lambda= 0.1369;  K=0.001436
+ statistics sampled from 1 (1) to 268 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.170
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|15008947-15009171            ( 225) [r]  328  355 82.8 1.5e-20
+AthaChr4|15008947-15009171            ( 225) [f]   43   43 21.2   0.054
+
+Smith-Waterman score: 355; 57.9% identity (77.6% similar) in 76 aa overlap (436-508:225-4)
+>AT2G17 ..
+LQCTICSFAMCYRCATIPYELYYKYDAHLLSLCYGEDA---EKAYWCEVC
+EKELNPREWFYSCNKCCITIHLECIF
+>AthaCh ..
+LECTQCEFTMCYKCATIPYQLCWKYDEHPLSLCY-EDSTSTDEIYWCEIC
+EEKIDTTTWFYTCNICCTTIHHLCVF
+
+Smith-Waterman score: 48; 40.0% identity (90.0% similar) in 10 aa overlap (235-244:175-201)
+>AT2G17 ..
+EGCSYVAHSK
+>AthaCh ..
+DGCTFITHCK
+
+>--
+Smith-Waterman score: 48; 57.1% identity (85.7% similar) in 7 aa overlap (478-484:24-41)
+>AT2G17 ..
+WCEVCEK
+>AthaCh ..
+WCNICCK
+
+
+
+581 residues in 1 query   sequences
+225 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:29 2022 done: Thu May 12 17:00:29 2022
+ Total Scan time:  0.170 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G15530 - 781 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      710 residues in     1 sequences
+
+Statistics: (shuffled [76]) MLE statistics: Lambda= 0.1475;  K=0.0005971
+ statistics sampled from 1 (1) to 76 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.160
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|15255970-15256679            ( 710) [r]  315  168 52.1 1.1e-10
+AthaChr4|15255970-15256679            ( 710) [f]   31   31 23.0   0.066
+
+Smith-Waterman score: 168; 44.4% identity (71.1% similar) in 45 aa overlap (657-701:135-4)
+>AT2G15 ..
+CICQEEYVEGDNLGTLKCGHEFHKDCIKQWVMIKNLCPIFRFNKE
+>AthaCh ..
+CYSQEEYTIGDEVGRLHCEHTYHVKCVQEWLRIKSWCPICKATAE
+
+>--
+Smith-Waterman score: 147; 36.1% identity (51.3% similar) in 119 aa overlap (576-660:710-356)
+>AT2G15 ..
+EDYMVFDPLIYQGMTDMHDRHREMRLDVDNMSYE----------------
+-------------ELLALGERIGDVSTGLSEEVILKAMK----QHKHTSS
+SPSSVELHQNIEP--CCICQ
+>AthaCh ..
+QDLLIMETGLLLGGLSFHDQHRDMRLDIDNMSYEVRLYIFETHVLFWDVV
+SLPFCLFF*LNT\ELLALEERIGTVSTALTEEAISKCLKTSIYQMKPLSY
+GSITKSPSDNKEDAKCSICQ
+
+Smith-Waterman score: 40; 54.5% identity (81.8% similar) in 11 aa overlap (324-334:83-112)
+>AT2G15 ..
+QQNLPLNSPFV
+>AthaCh ..
+QCSLPTSSPIV
+
+>--
+Smith-Waterman score: 50; 24.2% identity (48.3% similar) in 149 aa overlap (557-684:199-625)
+>AT2G15 ..
+ISEIRQVLHAMRRGENLRVEDYMVFDPLIYQGMTDM-HDR-HREMRLDVD
+NMSYEE---------LLALGERIGDVSTGLSEEVILKAMKQHKHTSSSPS
+SVE----LHQNIEPCCICQEE-------YVEGDNLG-TLKCGHEFHKDCI
+K
+>AthaCh ..
+ISSISTIMSSMKRL*SSKIS---VLFT*LNQPMTGF/HLRFHQSQRLDYD
+*QKGQTWQMLHLASSLLSLGLLV--IDP*LKGFI**ILVFKHFDIASSVK
+AVLTVPILSSRANSSCIQSKEKTKR*RYYIPKQNVG/SQRCKDEPHMTCY
+R
+
+
+
+781 residues in 1 query   sequences
+710 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:30 2022 done: Thu May 12 17:00:30 2022
+ Total Scan time:  0.160 Total Display time:  0.050
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G15530 - 781 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      144 residues in     1 sequences
+
+Statistics: (shuffled [63]) MLE statistics: Lambda= 0.1592;  K=0.001637
+ statistics sampled from 1 (1) to 63 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.140
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|15965169-15965312            ( 144) [r]  120  164 52.7 1.5e-11
+AthaChr4|15965169-15965312            ( 144) [f]   35   35 23.1   0.012
+
+Smith-Waterman score: 164; 61.2% identity (79.6% similar) in 49 aa overlap (697-745:144-7)
+>AT2G15 ..
+RFNKERRLCLFIMRMIKMIVPKPLGTSDKIGTIQRRLAWLLRKDDTYKS
+>AthaCh ..
+RLYSRKRKNIYIVRVAKMIVPS--WTSDKIGTIQRRLACALRKDDTLKS
+
+Smith-Waterman score: 35; 35.3% identity (58.8% similar) in 17 aa overlap (568-584:79-126)
+>AT2G15 ..
+RRGENLRVEDYMVFDPL
+>AthaCh ..
+RRDNHLSNSNYIYVLPL
+
+
+
+781 residues in 1 query   sequences
+144 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:30 2022 done: Thu May 12 17:00:30 2022
+ Total Scan time:  0.140 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G15530 - 781 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      171 residues in     1 sequences
+
+Statistics: (shuffled [159]) MLE statistics: Lambda= 0.1708;  K=0.003487
+ statistics sampled from 1 (1) to 159 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.150
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|16305084-16305254            ( 171) [r]  271  274 80.0 1.1e-19
+AthaChr4|16305084-16305254            ( 171) [f]   30   30 19.9    0.13
+
+Smith-Waterman score: 274; 70.0% identity (88.3% similar) in 60 aa overlap (601-660:171-4)
+>AT2G15 ..
+LDVDNMSYEELLALGERIGDVSTGLSEEVILKAMKQHKHTSSSPSSVELH
+QNIEPCCICQ
+>AthaCh ..
+LNMVRLGM*ELLALGERIGDVSTGLSEEVILKVMKQHKHTSSAAGS---H
+QDMEPCCVCQ
+
+Smith-Waterman score: 44; 33.3% identity (80.0% similar) in 15 aa overlap (445-459:110-151)
+>AT2G15 ..
+SSAIHTPQPNPTWIP
+>AthaCh ..
+TSPMRSPSANSSYIP
+
+
+
+781 residues in 1 query   sequences
+171 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:30 2022 done: Thu May 12 17:00:30 2022
+ Total Scan time:  0.150 Total Display time:  0.000
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G15530 - 781 aa
+Library: tmp_1652389225.336940/TMP.FA2
+     1587 residues in     1 sequences
+
+Statistics: (shuffled [140]) MLE statistics: Lambda= 0.1138;  K=0.0001809
+ statistics sampled from 1 (1) to 138 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.230
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|16305926-16307512            (1587) [r] 1698 1122 201.2 3.4e-55
+AthaChr4|16305926-16307512            (1587) [f]   50   50 25.2   0.033
+
+Smith-Waterman score: 2080; 60.2% identity (78.9% similar) in 565 aa overlap (1-560:1587-4)
+>AT2G15 ..
+MNPMQGPRSIGGSSTEVNQVDGESIYCT--ETSLNTMLNPADTGFPNNST
+PSGRPTYASSSSHAAQDHTWWRFGESSSIPGPSDQVNSIGIKTSHQLPQD
+GTHHFVGYGSEGRQTGLNGMMVDGGVHAGSHIRNVPSFLRGSSSNPMPQH
+VDMSMDMDSDNCNAQTSGVVIRHNSYGSSLGSSVQAAGESSSGPASPFGG
+WGSSCKRKALEGSPSHYFSGETPNRIVQTENSASHASLSQYGASSSLSLA
+TPSQSSPNVTNHFGRTEQMFGSGGGRAVAASAFHSTRNTDTLSRAGRRLN
+PRQPQESVAFSVSHGGTSVRPTGSLQQNLPLNSPFVDPPDVRSSSITSGS
+NTGENQTNIVHLPALTRNIHQYAWDASFSSRASNPSGIGMPAERLGPQWE
+TPRSNQEQPLFA-PATDMRQPVHDL--WNFARGSPGSSVDSLFVPRAGPS
+SAIHTPQPNPTWIPPQNAPPHNPSRTSELSPWSLFPSIESPSASHGGPLP
+LLPAGPSVSSNEVTMPSSSNSRSHRSRHRRSGLLLERQNELLHLRHIGRS
+LAADGNGRNQIISEI
+>AthaCh ..
+ISPMQGPRSTGDSSTGINYADGEPICSTNSETTSNNILNPVDVQFPNNTT
+GSGRPTYASSSSHVVQNHNWWSFGESSSRLGPSDHLNSNGSKTDRQLLSD
+------GYGFE---EGQSGMLLPG-----------ESFLRGSSSSHMLSH
+VNLGKDMDIGS-GLQTSGVVIRHNNCETSLGSSSQTAEERSSGPGSSLGG
+LGSSCKRKALEGAPSHSFPGESHGCFFQTENGAWNEGLAQYDASSSLSLS
+MPSQNSPNVNNQSGLPEPRFGLGGGRAVTASAFPSTRSTETISRPGRRLN
+PGQPPESVAFSFTQSGSSVRQ----QQQLPATSPFVDPLDARAIPVTGSS
+SSGDGQPSMIHLPALTRNIHQFAWSASSSSRANS-----MPEEGLSP-WD
+APRINSEQPVFTTPANETRNPVQDQFCWSFTRGNPSTSGDSPFVPRAGSS
+SGIHGLQPNPTWV-----TPHNQSRISEVAPWSLFPSIESESATHGASLP
+LLPTGPSVSSNEAAAPSGSSSRSHRSRQRRSGLLLERQNDHLHLRHLGRS
+LAADNDGRNRLISEV
+
+Smith-Waterman score: 57; 23.6% identity (51.8% similar) in 199 aa overlap (192-377:760-1316)
+>AT2G15 ..
+PASPFGGWGSSCKRKALEGSPS-HYFSGETPNRIVQTENSASHASLSQY-
+GASSSLS-LATPSQSSPNVTNH--FGRTEQMFGSG-GGRAVAASAF----
+---HSTRNTDTLSRAGRRLNPRQPQESVAFSVSHGGTSVRPTGSLQQNLP
+LNSPFVDPPDVR-SSSITSGSNTGENQTNIVHLPALTRNIHQYAWDASFS
+>AthaCh ..
+PARSRDGFRASCRRKSTCCNCS/HHH----PIQILVLVDQTDY*HLENFV
+RA*TNLSYLKHHIEQDPHSKHHSQFEKSNHDFHQGKNG*ELLQEPFFCRM
+NLDHPTKNLDH-CFSPLRFDLSFPMKSRSY---YGG*--RPQKS-ADHYQ
+CPCPCPDLHDLTYD*SLTHAKRTLQVTTYLIALPQIHSHLRE-AVDQSLN
+
+>--
+Smith-Waterman score: 56; 27.5% identity (55.0% similar) in 40 aa overlap (657-696:634-751)
+>AT2G15 ..
+CICQEEY-VEGDNLGTLKCGHEFHKDCIKQWVMIKNLCPIF
+>AthaCh ..
+CSCIQRV\TKGEVAGNCCC*RTELPDCVKLNATDSGGCPGF
+
+>--
+Smith-Waterman score: 53; 56.2% identity (62.5% similar) in 16 aa overlap (426-441:341-385)
+>AT2G15 ..
+ARGSPGSSVDSLFVPR
+>AthaCh ..
+ARGTKGESPDVLGFPR
+
+
+
+781 residues in 1 query   sequences
+1587 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:30 2022 done: Thu May 12 17:00:30 2022
+ Total Scan time:  0.230 Total Display time:  0.130
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G29730 - 468 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      408 residues in     1 sequences
+
+Statistics: (shuffled [73]) MLE statistics: Lambda= 0.1594;  K=0.0016
+ statistics sampled from 1 (1) to 73 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.130
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|16345605-16346012            ( 408) [r]  327  337 92.5 2.7e-23
+AthaChr4|16345605-16346012            ( 408) [f]   41   41 24.4  0.0084
+
+Smith-Waterman score: 337; 42.7% identity (72.6% similar) in 124 aa overlap (307-423:372-4)
+>AT2G29 ..
+FLWSLRKEEVTKDD----LPEGFLDRVDGRGMIC-GWSPQVEILAHKAVG
+GFVSHCGWNSIVESLWFGVPIVTWPMYAEQQLNAFLMVKELKLAVELKLD
+--YRVHSDEIVNANEIETAIRYVM
+>AthaCh ..
+FDFNLTQDLV*TDDREEWLPEGFEERVKGKGMIIRGWAPQVLILDHQATG
+GFVTHCGWNSLLEGVAAGLPMVTWPVGAEQFYNEKLVTQVLRTGVSVGAS
+KHMKVMMGDFISREKVDKAVREVL
+
+Smith-Waterman score: 45; 33.3% identity (76.2% similar) in 21 aa overlap (106-126:11-70)
+>AT2G29 ..
+LTSLALDGVKVKGLVVDFFCL
+>AthaCh ..
+LTALSTFSLLMKSPIITFICL
+
+
+
+468 residues in 1 query   sequences
+408 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:30 2022 done: Thu May 12 17:00:30 2022
+ Total Scan time:  0.130 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      207 residues in     1 sequences
+
+Statistics: (shuffled [211]) MLE statistics: Lambda= 0.1787;  K=0.005548
+ statistics sampled from 1 (1) to 211 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.140
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|16718901-16719107            ( 207) [f]  152  163 53.7 4.9e-12
+AthaChr4|16718901-16719107            ( 207) [r]   28   28 18.9    0.14
+
+Smith-Waterman score: 163; 43.9% identity (68.2% similar) in 66 aa overlap (22-87:1-192)
+>AT2G20 ..
+NDLIVTILARLSQSYYPKLSLVSKTFRAILASPELYQTRILLSRTETFLY
+VCLSFPGEPNPGWFTL
+>AthaCh ..
+N*LILKCLPRMSKSYYRSLSLVSKSFYYLLTSPDIYAFPPQIRTT*V*LY
+ICLKSP-TCHHSWITL
+
+Smith-Waterman score: 32; 29.7% identity (62.2% similar) in 37 aa overlap (287-323:194-89)
+>AT2G20 ..
+KLVVLW-HKYVPASGYEEKMVWCAEISLEKRSKKEIWG
+>AthaCh ..
+RVIQLW\YKWVI*GICRVKPMWF-*FGVEKRKCPEK*G
+
+
+
+349 residues in 1 query   sequences
+207 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:30 2022 done: Thu May 12 17:00:30 2022
+ Total Scan time:  0.140 Total Display time:  0.000
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G21930 - 336 aa
+Library: tmp_1652389225.336940/TMP.FA2
+     1014 residues in     1 sequences
+
+Statistics: (shuffled [103]) MLE statistics: Lambda= 0.1521;  K=0.001289
+ statistics sampled from 1 (1) to 102 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.200
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|18132583-18133596            (1014) [r]  543  743 177.8   1e-48
+AthaChr4|18132583-18133596            (1014) [f]   29   29 21.2    0.13
+
+Smith-Waterman score: 743; 42.3% identity (67.6% similar) in 355 aa overlap (1-336:1014-4)
+>AT2G21 ..
+MKSYLINSSTRPQSLIFTIAGGGIHCFFSLI---------DQGESTSSSK
+PTYLMNCPHLQLKTFAPSVHGLICHGPPSTLIVSSPRLIVSNPSTRRSII
+LPKIDANHECIYHHMGYDPIDGDYKVLCMMKGMHVYQ-RRYLAKELQVFT
+L-RKGNSWRMVEDF-PPHCLCHEDTPDLCINGVLYYVAMLDTASNH-AVM
+SFDVRSEKFDLIKGGPDGDLNPKLTRYEGKPALLF--PGSDYRINLWVIE
+DAAKHEWSKMSY-DVSSTSLIRNP--Y-FHHCVFCTNDAG--EIVLAPDF
+VRTKTFVVLYYHPKKNTMRSVVIKGIRDRKIPLWDEASYHRIISVFSGQV
+DNLMFL*
+>AthaCh ..
+MKLFLNESLKRPKSLVFVFRAQSLGSIFSSVHLKSTREISSSSSSSSASS
+ITYHVTCYTQQRMTISPSVHGLICYGPPSS-------LVIYNPCTRRSIT
+LPKIKAGRRAINQYIGYDPLDGNYKVVCITRGMPMLRNRRGLAEEIQVLT
+LGTRDSSWRMIHDIIPPHSPVSE---ELCINGVLYYRAFIGTKLNESAIM
+SFDVRSEKFDLIKVPCNFRSFSKLAKYEGKLAVIFYEKKTSGIIGLWILE
+DASNGEWSKKTF/DIA*SSCLINKLAY\FKLQKFRTTDADTCEIIFTPSY
+AHSSLSSAIYCDLKENKVRKFVKEGWTENYLPCNAD-------SVSSTQV
+ENLMFL*
+
+Smith-Waterman score: 42; 31.0% identity (48.3% similar) in 58 aa overlap (211-268:767-921)
+>AT2G21 ..
+LTRYEGKPALLFPG-SDYRINLWVIEDAAKHEWSKMSYDVSSTSLIRNPY
+FHHCVFCTN
+>AthaCh ..
+MTRLEGGP*HIKP-/SDGRRNGHALLSVASH----MVSD*RSRR******
+YLACTFKVN
+
+>--
+Smith-Waterman score: 40; 35.0% identity (55.0% similar) in 20 aa overlap (66-85:305-361)
+>AT2G21 ..
+HGPPSTLIVSSPRLIVSNPS
+>AthaCh ..
+HKPIIPLVFFS*KMTASFPS
+
+>--
+Smith-Waterman score: 36; 26.9% identity (65.4% similar) in 26 aa overlap (15-40:685-753)
+>AT2G21 ..
+LIFTIAGGGIHCFFSLIDQGESTSSS
+>AthaCh ..
+IAYVLVYGSPPCF--DLGQGN*SSSA
+
+>--
+Smith-Waterman score: 38; 33.3% identity (61.5% similar) in 39 aa overlap (219-257:96-199)
+>AT2G21 ..
+ALLFPGSDYRINLWVIEDAAKHE-WSKMSYDVSSTSLIRN
+>AthaCh ..
+SLYFP-SDHNK*H*IVMNAHKMV/WKIISH--VSASVVRN
+
+>--
+Smith-Waterman score: 38; 40.0% identity (66.7% similar) in 15 aa overlap (35-49:552-593)
+>AT2G21 ..
+ESTSSSKPTYLMNCP
+>AthaCh ..
+ESSSMMNPEFPMSKP
+
+
+
+336 residues in 1 query   sequences
+1014 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:30 2022 done: Thu May 12 17:00:30 2022
+ Total Scan time:  0.200 Total Display time:  0.050
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G31370 - 399 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      303 residues in     1 sequences
+
+Statistics: (shuffled [112]) MLE statistics: Lambda= 0.1689;  K=0.002676
+ statistics sampled from 1 (1) to 111 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.120
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|18139942-18140244            ( 303) [r]  353  233 70.4 7.5e-17
+AthaChr4|18139942-18140244            ( 303) [f]   37   37 22.7   0.018
+
+Smith-Waterman score: 286; 59.4% identity (66.3% similar) in 101 aa overlap (207-279:303-4)
+>AT2G31 ..
+RIWANRQSAARSKERKTRYIFELERKVQTLQTEATTLSAQLTLLQ-----
+-----------------------RDTNGLTVENNELKLRLQTMEQQVHLQ
+D
+>AthaCh ..
+RILANRQSAARSKERKMRYIVELEHKVQTLQTEATTLSAQLTLLQVRCLQ
+CYKSA*IGQFLFCSNDLSYCIIQRDMMGLTNQNNELKFRLQAMEQQARLR
+D
+
+Smith-Waterman score: 41; 27.7% identity (51.1% similar) in 47 aa overlap (11-56:54-176)
+>AT2G31 ..
+CGGLPPPSP-SGRCSAFSEAGPIGHGSDANRMSHDISRMLDNPPKKI
+>AthaCh ..
+CSDLSTPSYRAG*CSN*DR*NKT--KIDQSRRFYNI---VNNAPAKV
+
+
+
+399 residues in 1 query   sequences
+303 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:30 2022 done: Thu May 12 17:00:31 2022
+ Total Scan time:  0.120 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      330 residues in     1 sequences
+
+Statistics: (shuffled [86]) MLE statistics: Lambda= 0.1514;  K=0.001852
+ statistics sampled from 1 (1) to 86 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.130
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|18203497-18203826            ( 330) [f]  174  213 60.7 6.1e-14
+AthaChr4|18203497-18203826            ( 330) [r]   22   22 19.0     0.2
+
+Smith-Waterman score: 213; 42.3% identity (68.3% similar) in 104 aa overlap (32-129:1-309)
+>AT2G20 ..
+LSQSYYPKLSLVSKTFRAILASPELYQTRILLSRTETFLYVCLSFPGEPN
+PGWFTLYRKPN-QTLTTK---KKKNSVHLLAPILNSPPVEFPSLIA--VG
+SYLY
+>AthaCh ..
+VSISYYPKLSLVSKSFRSLVLSDLLYEVRSELQTQEECVYLGLQPPNKRC
+PIWFSLWIKPDDQTLNQYCNIQEKSTRNLLVPVPSSYTPFPPNLICAEVG
+SEIY
+
+Smith-Waterman score: 41; 31.0% identity (58.6% similar) in 29 aa overlap (41-69:107-24)
+>AT2G20 ..
+SLVSKTFRAILASPELYQTRILLSRTETF
+>AthaCh ..
+S*V*SSLRTS*SKSERTNERKLLETRESF
+
+>--
+Smith-Waterman score: 41; 25.0% identity (62.5% similar) in 40 aa overlap (132-171:269-156)
+>AT2G20 ..
+RAAIEEGTSDSLNCVEVYNTDTQTWIPVPPNKRIFKLQHM
+>AthaCh ..
+KGV*EDGTGTNKFLVD-FS*MLQYWLRV*SSGFIQRLNQM
+
+
+
+349 residues in 1 query   sequences
+330 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:31 2022 done: Thu May 12 17:00:31 2022
+ Total Scan time:  0.130 Total Display time:  0.020
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G21930 - 336 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      129 residues in     1 sequences
+
+Statistics: (shuffled [177]) MLE statistics: Lambda= 0.1794;  K=0.005969
+ statistics sampled from 1 (1) to 177 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.140
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|18256189-18256317            ( 129) [f]  142  152 50.9 2.1e-11
+AthaChr4|18256189-18256317            ( 129) [r]   29   29 19.0   0.078
+
+Smith-Waterman score: 152; 53.2% identity (72.3% similar) in 47 aa overlap (138-183:1-126)
+>AT2G21 ..
+VFTLRKGNSWRMVEDFPPHC-LCHEDTPDLCINGVLYYVAMLDTASN
+>AthaCh ..
+VLTMGNEHSWGMVEDIPPHSPTCDE----MCINGILYYGAFIDTNSN
+
+Smith-Waterman score: 46; 62.5% identity (62.5% similar) in 8 aa overlap (99-106:88-68)
+>AT2G21 ..
+HECIYHHM
+>AthaCh ..
+H*CTSHHM
+
+
+
+336 residues in 1 query   sequences
+129 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:31 2022 done: Thu May 12 17:00:31 2022
+ Total Scan time:  0.140 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G21640 - 105 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      186 residues in     1 sequences
+
+Statistics: (shuffled [121]) MLE statistics: Lambda= 0.1817;  K=0.006122
+ statistics sampled from 1 (1) to 121 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.060
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|18268511-18268696            ( 186) [f]  176  252 78.4 4.9e-20
+AthaChr4|18268511-18268696            ( 186) [r]   26   26 19.1   0.033
+
+Smith-Waterman score: 252; 54.0% identity (87.3% similar) in 63 aa overlap (14-76:1-183)
+>AT2G21 ..
+KIETENPPKPQVPASSCRKRVKDDNATFFANLKDHMDEFIHASMDEHKTC
+FKNTMDKIFGSFS
+>AthaCh ..
+QMETQTNQSPKPAMTSCRKKVKDD-ATFFEDVKDHIDDFIHASMDEHKSC
+FQKTIKKVLSQLS
+
+Smith-Waterman score: 35; 31.8% identity (72.7% similar) in 22 aa overlap (61-82:125-75)
+>AT2G21 ..
+KTCFKNTMDKIFGSFSKAEAVA
+>AthaCh ..
+EACIKSSM*----SFTSSKKVA
+
+
+
+105 residues in 1 query   sequences
+186 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:31 2022 done: Thu May 12 17:00:31 2022
+ Total Scan time:  0.060 Total Display time:  0.000
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+     1049 residues in     1 sequences
+
+Statistics: (shuffled [82]) MLE statistics: Lambda= 0.1202;  K=0.0003316
+ statistics sampled from 1 (1) to 82 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.190
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|18382608-18383656            (1049) [r]  698  357 79.1 5.6e-19
+AthaChr4|18382608-18383656            (1049) [f]   35   35 23.3   0.035
+
+Smith-Waterman score: 717; 39.5% identity (63.6% similar) in 365 aa overlap (19-349:1049-4)
+>AT2G20 ..
+SLPNDLIVTILARLSQSYYPKLSLVSKTFRAILASPELYQTRILLSRTET
+FLYVCLSFPGEPNPGWFTLYRKPNQTLTTKKKKNSVHLLAPIL--NSPPV
+EFPSLIAVGSYLYAFRAAIEEGTSDSLNCVEVYNTDTQTWIPVPPNKRIF
+KLQHMKGMLYMKV-----------SKLLSFVAQDAEELAPLFPKL-----
+RSLLSTEV--------------VAFKPKVSEGYEVLGFSVNTDLG-RG--
+SFCMIEEITYHYDPSVKFRWRRRQGGVWRSLVGLEGLPKFARYSSVKLAD
+CGGKLVVLWHKYVPASGYEEKMVWCAEISLEKRSKKEIWGKIEWFDAVLR
+VPKYYQFVGAKSATV*
+>AthaCh ..
+SLPVDLLISILARVSRLDYPILSLVSKSFRSLIASPELYETRSLLGRTES
+CLYLCLGIPSDFNPRWFTLCRKP---------KPSGHVMAAISIPNSRPV
+HCSGLVAVGSDIYNIGGSIINEHSSS---VSILDCRYHTWRDA-PNMLVE
+RNSHAANVIDGKIYVAGGSRDSNSSNWMEVFDIKTQTWEPVLNPIADGCD
+RRIRKSAVIEEAICLFGYKGVGVAYNPRIDK-WEAIGEVNYLDLG/*GMA
+SCCVIDNVLYCYSNIDGIKLYDSKIGCWMKLKGLEGLPEFASYSYVRLAD
+YGGKMAVLWDK-LPTTGNNNMVIWCAVITLEKRHNENIWGRVEWFDAVLT
+VPEPYEFVCARSANV*
+
+Smith-Waterman score: 57; 20.8% identity (53.8% similar) in 106 aa overlap (158-251:430-738)
+>AT2G20 ..
+PVPPNKRI---------FKLQHMKGMLYMKVSKLLSFVAQDA---EELAP
+LFPKLRSLLSTEVVAFKPKVSEGYEVLGFSVNTDLGRGSFCMIEEITYHY
+DPSVKF
+>AthaCh ..
+PLYPNKQIASSITALLRIRLSHPSAIGFSTGSQVWVFISKTSIQLEELES
+LLPPATYIFPSITLAACEFRSTS--MFGASRHV*YRQSNIETLEECSLMM
+DPPMLY
+
+>--
+Smith-Waterman score: 42; 37.0% identity (63.0% similar) in 27 aa overlap (48-73:231-308)
+>AT2G20 ..
+RAILASPELYQTRILLSRTETF-LYVC
+>AthaCh ..
+QAILPNP*ASSSILS*SHTI*FRLYYC
+
+>--
+Smith-Waterman score: 46; 26.2% identity (50.0% similar) in 42 aa overlap (56-97:774-896)
+>AT2G20 ..
+LYQTRILLSRTETFLYVCLSFPGEPNPGWFTLYRKPNQTLTT
+>AthaCh ..
+MYRTRIGD*DCRHNMPTWLRFSAESEPARVKVRRDP*AQIET
+
+>--
+Smith-Waterman score: 38; 35.7% identity (57.1% similar) in 28 aa overlap (40-67:901-981)
+>AT2G20 ..
+LSLVSKTFRAILASPELYQTRILLSRTE
+>AthaCh ..
+LSVRPKSDRVS*SSGEAMRDRKLLETRE
+
+>--
+Smith-Waterman score: 41; 22.6% identity (54.7% similar) in 53 aa overlap (158-210:67-223)
+>AT2G20 ..
+PVPPNKRIFKLQHMKG-MLYMKVSKLLSFVAQDAEELAPLFPKLRSLLST
+EVVA
+>AthaCh ..
+PLNPPPNVFIVALFKC\ITAHQITMLLLPVVGNLSHKTAIFPP*SANLT*
+E*LA
+
+
+
+349 residues in 1 query   sequences
+1049 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:31 2022 done: Thu May 12 17:00:31 2022
+ Total Scan time:  0.190 Total Display time:  0.050
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+     1095 residues in     1 sequences
+
+Statistics: (shuffled [120]) MLE statistics: Lambda= 0.1439;  K=0.0008196
+ statistics sampled from 1 (1) to 120 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.5), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.160
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|18389436-18390530            (1095) [r]  936  495 118.2   1e-30
+AthaChr4|18389436-18390530            (1095) [f]   34   34 22.5   0.064
+
+Smith-Waterman score: 902; 45.3% identity (63.9% similar) in 393 aa overlap (7-349:1094-4)
+>AT2G20 ..
+KKRRKKLSPE-SNSLPNDLIVTILARLSQSYYPKLSLVSKTFRAILASPE
+LYQTRILLSRTETFLYVCLSFPGEPNPGWFTLYRKPNQ-TLTTKKKKNSV
+HLLAPI--LNSPPVEFPSLIAVGSYLYAFRAAIEE---------------
+-----------------------GTS---DSLNCVEVYNTDTQTWIPVPP
+NKRIFKLQHMKGMLYMKVSKLLSFVAQDAEELAPLFPKLRSLLSTEV---
+VAFKPKVSEGYEVLGFSVNTDLGRGSFCMIEEITYHYDPSVKFRWRRRQG
+G--VWRSLVGLEGLPKFARYSSVKLADCGGKLVVLWHKYVPASGYEEKMV
+WCAEISLEKR-SKKEIWGKIEWFDAVLRVPKYYQFVGAKSATV*
+>AthaCh ..
+KSRR*K*RPR/SPSLPEDLVVSCLARVSRLYYPTLSLVSKSFRSLIASPD
+LYKTRSLLGRTESCLYLCLRYSPEDNPRWFTLCRKPNRRTLSKEKNESSG
+NLLVPIPIINSPPLEWSSIVAVGSHLYAINGPIEDAPCSNVSFLDCRSHT
+WLEAPSMRVAHTNSQLDGKMYLAGSSENVDSLNCIQVFSTKTQTWKPVPF
+QKRIFGVGDLEGKIY-------------------------TICRTECGQG
+VTIKPK-DLTCDVVGFCGEKDW--SSVCMIGNIVYFYRPNGEFLWIYSGK
+GESARRNLKGLEGLPKFDDYASVKLVDYGGKLMVLWDTYVPESESKEKMI
+WCAEISLQKKCNNEEIWGTVEWFDAVLTVPEDCKFVRAIAATV*
+
+Smith-Waterman score: 60; 33.7% identity (53.0% similar) in 83 aa overlap (82-154:309-547)
+>AT2G20 ..
+PGWFTLYRKPNQTLTTKKKKNSV-------HLLAPI-LNSPPVEFPSLIA
+VGSYLYAFRAAIEE-GTSD-SLN-CVEVYNTDTQ
+>AthaCh ..
+PHW--VYKNRLCSLSYKQKTNPSPHKILPRHMLNPLAL*SHPVHTLSYRS
+YKSFLPDLRLRISAFGTAQ/SFQVCVFVLNT*IQ
+
+>--
+Smith-Waterman score: 56; 26.1% identity (50.7% similar) in 69 aa overlap (9-77:43-243)
+>AT2G20 ..
+RRKKLSPESNSLPNDLIVTILARLSQSYYPKLSLVSKTFRAILASPELYQ
+TRILLSRTETFLYVCLSFP
+>AthaCh ..
+RDCKHSVEPLDRPPNLFIVALFLKRNLCAPNHLLLRLTFRDI-SVPQNHQ
+LTTIIHQFNTSIIIKLR*P
+
+>--
+Smith-Waterman score: 45; 33.3% identity (51.0% similar) in 51 aa overlap (212-262:852-983)
+>AT2G20 ..
+KPKVSEGYEVLGFSVNTDLGRGSFCMIEEITYHYDPSVKFRWRRRQGGVW
+R
+>AthaCh ..
+RE*TSEGY--LQESIVSTDRDNSRCDLTEIESCRD-LVK---QSRSGSSW
+R
+
+>--
+Smith-Waterman score: 35; 70.0% identity (80.0% similar) in 10 aa overlap (17-26:1029-1055)
+>AT2G20 ..
+SNSLPNDLIV
+>AthaCh ..
+SSSLPNLLEV
+
+
+
+349 residues in 1 query   sequences
+1095 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:31 2022 done: Thu May 12 17:00:31 2022
+ Total Scan time:  0.160 Total Display time:  0.040
+
+Function used was TFASTY [36.3.8i Sept, 2021]
+# /home/shius/github/fasta36/bin/tfasty36 -m 3 -q tmp_1652389225.336940/TMP.FA1 tmp_1652389225.336940/TMP.FA2
+TFASTY compares a protein to a translated DNA data bank
+ version 36.3.8i Sept, 2021
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: tmp_1652389225.336940/TMP.FA1
+  1>>>AT2G20380 - 349 aa
+Library: tmp_1652389225.336940/TMP.FA2
+      294 residues in     1 sequences
+
+Statistics: (shuffled [144]) MLE statistics: Lambda= 0.1478;  K=0.001807
+ statistics sampled from 1 (1) to 144 sequences
+Algorithm: TFASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (1), E-opt: 0.1 (0.5), width:  16
+ Scan time:  0.160
+
+The best scores are:                             initn opt bits E(1)
+AthaChr4|18439138-18439431            ( 294) [f]  199  235 63.7 6.9e-15
+AthaChr4|18439138-18439431            ( 294) [r]   39   39 21.9   0.026
+
+Smith-Waterman score: 235; 46.6% identity (72.8% similar) in 103 aa overlap (1-103:1-291)
+>AT2G20 ..
+MSSSPEKKRRKKLSPESNSLPNDLIVTILARLSQSYYPKLSLV-SKTFRA
+ILASPELYQTRILL-SRTETFLYVCLSFPGEPNPGWFTLYRKPNQTLTTK
+KKKNS
+>AthaCh ..
+MSSEVEPPQKKK-QPW---LPDYIVENCLAHISRSYYPKLSLV/SKSFRS
+LVVSKELNKARYRL\TTEEYFFHVCLQLPKSPLPTWYTLWIKPDQ-IEKK
+KKINT
+
+Smith-Waterman score: 47; 40.9% identity (54.5% similar) in 22 aa overlap (69-90:278-217)
+>AT2G20 ..
+FLYV-CLSFPGEPNPGWFTLYRK
+>AthaCh ..
+FFSI/CIRFYPERVPGWKRTLRK
+
+
+
+349 residues in 1 query   sequences
+294 residues in 1 library sequences
+ Tcomplib [36.3.8i Sept, 2021] (16 proc in memory [0G])
+ start: Thu May 12 17:00:31 2022 done: Thu May 12 17:00:31 2022
+ Total Scan time:  0.160 Total Display time:  0.010
+
+Function used was TFASTY [36.3.8i Sept, 2021]

@@ -1,5 +1,48 @@
-# Pseudogene pipeline
-Scripts and wrapper file for runing the Shiu Lab's pseduogene pipeline. 
+# Pseudogene Pipeline
+Pipeline wrapper and helper scripts for running the Shiu Lab pseudogene pipeline.
+
+## Quick start
+
+This repository exposes a single user-facing command:
+
+```bash
+git clone <your-fork-or-repo-url>
+cd PseudogenePipeline
+FASTA36_DIR=~/fasta36 bash pseudogene-pipeline install
+```
+
+That command will:
+
+- create or update the `pseudogenePipeline` conda environment
+- install and compile `fasta36`
+- verify `RepeatMasker`, `rmblastn`, `trf`, and `tfasty36`
+- configure `test25/test_parameter_file`
+- run `test25` end to end
+
+If you want a different environment name, pass it as an environment variable:
+
+```bash
+ENV_NAME=myPseudoEnv FASTA36_DIR=~/fasta36 bash pseudogene-pipeline install
+```
+
+After installation:
+
+```bash
+bash pseudogene-pipeline check
+bash pseudogene-pipeline test25
+bash pseudogene-pipeline run /path/to/parameter_file
+```
+
+## Best way to distribute this
+
+Do not try to vendor `RepeatMasker` or `fasta36` inside this repository. The maintainable approach is:
+
+- keep this repo as the pipeline source
+- ship `environment.yml` for conda-managed dependencies
+- ship a single top-level entrypoint for users
+- ship validation and test-run scripts so users can confirm their install fast
+
+That keeps the repo small, respects upstream tool ownership, and gives users one documented path from clone to a working test run.
 
 # Overview
 
@@ -9,69 +52,82 @@ Scripts and wrapper file for runing the Shiu Lab's pseduogene pipeline.
 * Campbell M, Law MY, Holt C, Stein J, Moghe G, Hufnagel Du, Lei J, Achawanantakun R, Jiao D, Lawrence C, Ware D, Shiu SH, Childs K, Sun Y, Jiang N, Yandell M (2014) MAKER-P: a tool-kit for the rapid creation, management, and quality control of plant genome annotations. Plant Physiol164(2):513-24 [pubmed](http://www.plantphysiol.org/content/151/1/3)
 * Lloyd JP, Tsai ZTY, Sowers RPu, Panchy NL, Shiu SH (2018) A model-based approach for identifying functional intergenic transcribed regions and non-coding RNAs. Mol. Biol. Evol. 35(6):1422-1436 [pubmed](https://pubmed.ncbi.nlm.nih.gov/29554332/) 
 
-## Requirements 
+## Requirements
 
-* python 3 (https://www.python.org/downloads/)
-* python scripts in the `_scripts` folder
-* RepeatMaster (http://www.repeatmasker.org/)
-  * A local installation of RepeatMasker is needed. Note that RepeatMasker has other dependencies.
-* tfasty (part of the fasta36 package, version 36.0.0 or later; https://github.com/wrpearson/fasta36): 
-  * The GitHub version need to be compiled and installed. Please follow the instruction in the README for fasta36.
+* conda
+* git
+* `RepeatMasker` plus `rmblastn` and `trf`
+* tfasty (part of the fasta36 package, version 36.0.0 or later; https://github.com/wrpearson/fasta36):
+  * The GitHub version needs to be compiled and installed. `pseudogene-pipeline install` does this for Linux using `Makefile.linux_sse2`.
 
-## Useage
+## Usage
 
-### Cut-to-the-chase
+### CLI
 
-The pipline is run using:  
-<pre><code>python _scripts/PseudogenePipeline.py [parameter_file]</code></pre>
+Show help:
 
-To invoke the help function, run:
-<pre><code>python _scripts/PseudogenePipeline.py</code></pre>
+```bash
+bash pseudogene-pipeline help
+```
+
+Install everything and run the bundled `test25` validation:
+
+```bash
+FASTA36_DIR=~/fasta36 bash pseudogene-pipeline install
+```
+
+Re-check the environment later:
+
+```bash
+bash pseudogene-pipeline check
+```
+
+Re-run the bundled test:
+
+```bash
+bash pseudogene-pipeline test25
+```
+
+Run the pipeline on your own parameter file:
+
+```bash
+bash pseudogene-pipeline run /path/to/parameter_file
+```
+
+### Manual pipeline entrypoint
+
+The underlying pipeline wrapper is still:
+
+```bash
+python scripts/PseudogenePipeline.py [parameter_file]
+```
 
 ### About the parameter file
 
-This text file specifies how the pipeline should run and an example can found in in the `_example_files` folder.
+The parameter file controls paths, BLAST input, RepeatMasker settings, and filtering thresholds. A template is available at [`parameter_file`](/home/rohan/PseudogenePipeline/example_files/parameter_file).
 
-### Test run
+### Bundled tests
 
-Two test datasets are provided for you to gauge whether there is any issues.
+- `test25.tgz`: small validation dataset archive; the unpacked working directory in this repository is `test25`
+- `test27206.tgz`: larger validation dataset archive, about 20 to 30 minutes
 
-1. `_test25.tgz`: This compressed file contains a test dataset of 25 proteins that takes ~1 minute to run. To use:
+The `test25/expected_outputs` directory contains a reference output set.
 
-```Python
-tar xvzf _test25.tgz
-cd _test25
-```
-Then make sure the `test_parameter_file` in the folder is modified to specifiy:
-- The location and name of `tfasty` program.
-- The location of `RepeatMasker`. 
-- The location of `PseudogenePipeline`'s `_scripts` folder. 
- 
-Below we assume that you are in the `_test25` folder is in the cloned `PseudogenePipeline` folder. Run the pipeline:
+## Output
 
-```Python
-python ../_scripts/PseudogenePipeline.py test_parameter_file 
-```
+The output of the pipeline is separated into the following subfolders:
 
-The `_expected_results` folder contains what you should be seeing.
-
-2. `_test27206.tgz`: This is a test case that is more realistic with a larger _Arabidopsis thaliana_ dataset that takes ~20-30 min to run. 
-
-## Ouput
-
-The output of the pipeline is seperated into the following subfolder:
-  
-* _intermediate: Intermediate files used to generate final results. 
-* These may be removed following a successful run, however if you want a list of pseudogenes generated prior to high confidence  filtering and/or RepatMasker filtering they will be here
-* _logs: log files generated by the run
-* _results: Output files for the final list of pseudogenes following high confidence and and RepeatMasker filtering
+* `intermediate`: intermediate files used to generate final results
+* `logs`: log files generated by the run
+* `results`: final pseudogene outputs after high-confidence and RepeatMasker filtering
   1. hiConf.RMfilt/hiConf.RMfilt.cdnm - position information for pseudogenes
   2. fa.hiConf.RMfilt/fa.hiConf.RMfilt.cdnm - sequence information for pseudogenes
   3. hiConf.RMfilt.cdnm.gff - gff file with pseudogene annotations 
-  4. pseudogene_evidence_cod - information on the numbers of stop codons, stop condons near gaps, frameshits, framshifts near gaps. Because the gaps can simply be alignments between coding sequence and introns, any predicted stop and frameshift near them are of lower confidence.
-* NOTE: cdnm versions of the output use simplified pseudogene names.
+  4. pseudogene_evidence_cod - information on the numbers of stop codons, stop codons near gaps, frameshifts, and frameshifts near gaps. Because the gaps can simply be alignments between coding sequence and introns, any predicted stop and frameshift near them are of lower confidence.
 
-## Versio info
+NOTE: `cdnm` versions of the output use simplified pseudogene names.
+
+## Version info
 
 ### v.2.0.0
 

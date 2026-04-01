@@ -1,0 +1,4 @@
+  bit   perc perc perc  query               position in query    matching repeat          position in repeat
+score   div. del. ins.  sequence            begin end   (left)   repeat   class/family  begin  end    (left)  ID
+
+   18   15.6  0.0  2.7  Ps000045_AT2G21930    117   154  (857) + (ATC)n   Simple_repeat      1     37    (0)   1  
