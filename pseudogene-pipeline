@@ -58,9 +58,13 @@ install_fasta36() {
 
 ensure_test25() {
   if [[ ! -d "$TEST25_DIR" ]]; then
-    if [[ -f "$REPO_ROOT/test25.tgz" ]]; then
+    if [[ -f "$REPO_ROOT/test25.tgz" || -f "$REPO_ROOT/test25.tar.gz" ]]; then
       # Unpack bundled test data if present (gunzip then tar).
-      gunzip "$REPO_ROOT/test25.tgz"
+      if [[ -f "$REPO_ROOT/test25.tgz" ]]; then
+        gunzip "$REPO_ROOT/test25.tgz"
+      else
+        gunzip "$REPO_ROOT/test25.tar.gz"
+      fi
       tar -xf "$REPO_ROOT/test25.tar"
     else
       echo "ERROR: $TEST25_DIR is missing and $REPO_ROOT/test25.tgz not found." >&2
