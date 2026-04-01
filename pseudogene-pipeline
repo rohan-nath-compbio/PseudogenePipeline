@@ -30,10 +30,13 @@ Environment variables:
   SKIP_TEST25  If set to 1, skip test25 during install/test25. Default: 0
   RM_LIB       RepeatMasker library directory (overrides auto-detection)
   DFAM_LIB_DIR Alternative RepeatMasker library directory to use (sets RM_LIB)
+  DFAM_DEST    Where to download Dfam if AUTO_DFAM=1 (defaults to /storage1/RepeatMasker/Libraries if writable, else $REPO_ROOT/dfam/Libraries)
+  AUTO_DFAM    If set to 1, auto-download Dfam (full) and use it. Default: 0
 
 Examples:
   FASTA36_DIR=~/fasta36 bash pseudogene-pipeline install
   bash pseudogene-pipeline test25
+  AUTO_DFAM=1 bash pseudogene-pipeline install
   bash pseudogene-pipeline download-dfam /path/to/RepeatMasker/Libraries
   bash pseudogene-pipeline run /path/to/parameter_file
 EOF
@@ -83,7 +86,43 @@ repeatmasker_bin_dir() {
   dirname "$(command -v RepeatMasker)"
 }
 
+dfam_dest_dir() {
+  if [[ -n "${DFAM_DEST:-}" ]]; then
+    echo "$DFAM_DEST"
+    return
+  fi
+  if [[ -d "/storage1" && -w "/storage1" ]]; then
+    echo "/storage1/RepeatMasker/Libraries"
+    return
+  fi
+  echo "$REPO_ROOT/dfam/Libraries"
+}
+
+has_dfam_full() {
+  local dir="$1"
+  ls "$dir"/dfam*_full.*.h5 >/dev/null 2>&1 && return 0
+  ls "$dir"/dfam*_full.*.h5.gz >/dev/null 2>&1 && return 0
+  return 1
+}
+
+ensure_dfam() {
+  if [[ "${AUTO_DFAM:-0}" != "1" ]]; then
+    return
+  fi
+  local dest
+  dest="$(dfam_dest_dir)"
+  mkdir -p "$dest"
+  export DFAM_LIB_DIR="$dest"
+  export RM_LIB="$dest"
+
+  if ! has_dfam_full "$dest"; then
+    echo "AUTO_DFAM=1: downloading Dfam full libraries to $dest"
+    cmd_download_dfam "$dest"
+  fi
+}
+
 ensure_repeatmasker_env() {
+  ensure_dfam
   local rm_share
   rm_share="$(repeatmasker_bin_dir)/../share/RepeatMasker"
   if [[ -d "$rm_share" ]]; then
