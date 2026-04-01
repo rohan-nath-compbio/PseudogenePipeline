@@ -79,7 +79,17 @@ repeatmasker_bin_dir() {
   dirname "$(command -v RepeatMasker)"
 }
 
+ensure_repeatmasker_env() {
+  local rm_share
+  rm_share="$(repeatmasker_bin_dir)/../share/RepeatMasker"
+  if [[ -d "$rm_share" ]]; then
+    export RM_LIB="$rm_share/Libraries"
+    export PATH="$PATH:$rm_share"
+  fi
+}
+
 check_setup() {
+  ensure_repeatmasker_env
   echo "Python: $(command -v python)"
   python -V
   echo "RepeatMasker: $(command -v RepeatMasker)"
@@ -153,6 +163,7 @@ EOF
 }
 
 run_test25() {
+  ensure_repeatmasker_env
   if ! can_run_repeatmasker; then
     echo "WARNING: RepeatMasker/famdb not ready (or SKIP_TEST25=1). Skipping test25."
     echo "         Configure RM_LIB and verify: famdb.py lineage viridiplantae"
