@@ -26,6 +26,7 @@ Usage:
 Environment variables:
   ENV_NAME     Conda environment name. Default: pseudogenePipeline
   FASTA36_DIR  Install/use fasta36 here. Default: \$HOME/fasta36
+  SKIP_TEST25  If set to 1, skip test25 during install/test25. Default: 0
 
 Examples:
   FASTA36_DIR=~/fasta36 bash pseudogene-pipeline install
@@ -97,6 +98,25 @@ check_setup() {
   echo "RepeatMasker bin dir: $(repeatmasker_bin_dir)"
 }
 
+can_run_repeatmasker() {
+  if [[ "${SKIP_TEST25:-0}" == "1" ]]; then
+    return 1
+  fi
+
+  if ! command -v RepeatMasker >/dev/null 2>&1; then
+    return 1
+  fi
+
+  if command -v famdb.py >/dev/null 2>&1; then
+    # test25 uses viridiplantae
+    if ! famdb.py lineage viridiplantae >/dev/null 2>&1; then
+      return 1
+    fi
+  fi
+
+  return 0
+}
+
 configure_test25() {
   ensure_test25
   cat > "$TEST25_DIR/test_parameter_file" <<EOF
@@ -133,6 +153,11 @@ EOF
 }
 
 run_test25() {
+  if ! can_run_repeatmasker; then
+    echo "WARNING: RepeatMasker/famdb not ready (or SKIP_TEST25=1). Skipping test25."
+    echo "         Configure RM_LIB and verify: famdb.py lineage viridiplantae"
+    return 0
+  fi
   log_progress 1 3 "Writing test25 parameter file"
   configure_test25
   pushd "$TEST25_DIR" >/dev/null
