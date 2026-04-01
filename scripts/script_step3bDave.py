@@ -104,6 +104,9 @@ with open("%s_I%i.PS1" % (sys.argv[1],lenT),"w") as oup:
             print(" %i k" % (c/1e3))
         c += 1
         #print i,len(all_contigs[i])
+        if not all_contigs[i]:
+            print("WARNING: empty pseudoexon contig encountered; skipping.")
+            continue
         # D = {query_gi:[composite_e,[iC],[pC]}
         D = {}
         
@@ -123,5 +126,8 @@ with open("%s_I%i.PS1" % (sys.argv[1],lenT),"w") as oup:
                     D[j[4][k]][2].append(j[2][k])
 
         #Output info
+        if not D:
+            print("WARNING: no pseudoexon entries for contig; possible empty/filtered input. Skipping.")
+            continue
         OutputPseudogene(D)
 print("\npseudoexons merged!\n")

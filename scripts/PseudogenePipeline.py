@@ -21,7 +21,7 @@
 # 10/14/10 Shinhan - Pseudogene pipeline wrapper. Assuming the BLAST run is
 #          finished. Require a parameter file to run.
 
-import sys, os, time, math, subprocess, shlex, ParseBlast
+import sys, os, time, math, subprocess, shlex, shutil, ParseBlast
 
 def help():
     '''Help function, need to be replaced with argParse'''
@@ -183,6 +183,18 @@ def run_cmd(cmd):
     print(cmd)
     subprocess.run(cmd, shell=True, check=True)
 
+def check_repeatmasker_species(species):
+    """Best-effort check that RepeatMasker taxonomy is available."""
+    famdb = shutil.which("famdb.py")
+    if not famdb:
+        return
+    try:
+        subprocess.run([famdb, "lineage", species],
+                       check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    except subprocess.CalledProcessError:
+        print("WARNING: RepeatMasker famdb taxonomy lookup failed for species:", species)
+        print("         If RepeatMasker later fails, check that the library is installed and RM_LIB is set.")
+
 def check_parameters(parameter_file):
     """"Check whether the parameter file is formated properly"""
 
@@ -190,9 +202,16 @@ def check_parameters(parameter_file):
     inp = open(parameter_file)
     inl = inp.readlines()
     P   = {} # Paramters Dictionary
+    known_keys = {
+        "b_out","p_seq","g_seq","p_codes","b_format","b_filter",
+        "f_dir","f_prog","blosum","gff","r_dir","r_species",
+        "r_cut","r_div","il_t","overlap",
+        "ev_t","id_t","ml_t","ml_p",
+    }
 
     # Check if this is delimited with "=" with 2 elements each line
     p_misformat = 0
+    unknown_keys = set()
     c = 0
     for i in inl:
         # Comment line, ignore
@@ -205,6 +224,8 @@ def check_parameters(parameter_file):
             p_misformat = 1
         else:     
             P[L[0]] = L[1]
+            if L[0] not in known_keys:
+                unknown_keys.add(L[0])
         c += 1
 
     # Check if required parameter values are missing
@@ -251,6 +272,9 @@ def check_parameters(parameter_file):
 
     if p_misformat or p_missing or f_missing or b_unkformat or o_unk:
         sys.exit(0)
+
+    if unknown_keys:
+        print("WARNING: unknown parameter keys found:", ", ".join(sorted(unknown_keys)))
 
     return P
 
@@ -417,6 +441,16 @@ def main():
         if i not in P:
             P[i] = default[i]
             print("  default: %s=%s" % (i,P[i]))
+    try:
+        if float(P["ev_t"]) < 1:
+            print("WARNING: ev_t is -log10(evalue). For example, use 5 for 1e-5 or 8 for 1e-8.")
+    except ValueError:
+        print("WARNING: ev_t should be numeric and represents -log10(evalue).")
+    try:
+        if float(P["ml_p"]) > 1:
+            print("WARNING: ml_p is a proportion (0-1). For 70%, use 0.70, not 70.")
+    except ValueError:
+        print("WARNING: ml_p should be numeric and represents a proportion between 0 and 1.")
 
     #########
     ## STEP 1
@@ -445,6 +479,9 @@ def main():
         run_cmd("mv %s_E%sI%sL%sP%sQ1.qlines %s_parsed" % \
                     (P["b_out"],P["ev_t"],P["id_t"],P["ml_t"],ml_p,P["b_out"]))
         P["b_out"] = "%s_parsed" % P["b_out"]
+        if os.path.isfile(P["b_out"]) and os.path.getsize(P["b_out"]) == 0:
+            print("ERROR: filtered BLAST output is empty. Check b_format/outfmt 6 and filter thresholds (ev_t/id_t/ml_t/ml_p).")
+            sys.exit(0)
 
     #########
     ## STEP 2
@@ -558,7 +595,20 @@ def main():
         "%s.4col.true.fa.mod.mod" % base,
         "#",
     )
-    run_cmd("%s/RepeatMasker -cutoff %s -par 8 -xsmall -species %s -gff %s.4col.true.fa.mod.mod" % (r_dir, r_cut, r_species, base))
+    rm_species = r_species.strip()
+    use_species = rm_species and rm_species.lower() not in ["none", "default", "auto"]
+    if use_species:
+        check_repeatmasker_species(rm_species)
+        rm_cmd = "%s/RepeatMasker -cutoff %s -par 8 -xsmall -species %s -gff %s.4col.true.fa.mod.mod" % (r_dir, r_cut, rm_species, base)
+    else:
+        print("RepeatMasker: running without -species (r_species is 'none/default/auto').")
+        rm_cmd = "%s/RepeatMasker -cutoff %s -par 8 -xsmall -gff %s.4col.true.fa.mod.mod" % (r_dir, r_cut, base)
+    try:
+        run_cmd(rm_cmd)
+    except subprocess.CalledProcessError:
+        print("ERROR: RepeatMasker failed. This can happen if the library is not installed or the species lineage is missing.")
+        print("       Check RM_LIB, RepeatMasker installation, and the r_species value.")
+        sys.exit(0)
 
     print("\nParse RepeatMasker output")
     run_cmd("python %s/parse_RepeatMasker_gff.py %s.4col.true.fa.mod.mod.out %s %s" % (scriptDir, base, r_cut, r_div))
